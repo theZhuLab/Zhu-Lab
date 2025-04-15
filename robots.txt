@@ -1,1 +1,1 @@
-Sitemap: https://thezhulab.github.io/ZhuLab/sitemap.xml
+Sitemap: https://thezhulab.github.io/Zhu-Lab/sitemap.xml
