@@ -1,5 +1,5 @@
 ---
 title: Interests
-parent: projects
+parent: research
 nav_order: 1
 ---
