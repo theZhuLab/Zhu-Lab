@@ -5,6 +5,6 @@
 
   # theZhuLab's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[thezhulab.github.io/ZhuLab](https://thezhulab.github.io/ZhuLab)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
