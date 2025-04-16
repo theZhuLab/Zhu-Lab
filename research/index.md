@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Home
 nav:
   order: 1
   tooltip: What we do
