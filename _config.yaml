@@ -10,10 +10,10 @@ proofer: false
 links:
   email: cheng.zhu@bme.gatech.edu
   orcid: 0000-0002-1718-565X
-  google-scholar: tPv2wEAAAAJ
-  github: theZhuLab
-  twitter: theZhuLab
-  youtube: theZhuLab
+  google-scholar: _tPv2wEAAAAJ
+  #github: theZhuLab
+  #twitter: theZhuLab
+  #youtube: theZhuLab
 
 ### jekyll settings
 
