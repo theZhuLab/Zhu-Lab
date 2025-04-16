@@ -1,174 +1,1259 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1038/s41590-018-0259-z
+  title: A TCR mechanotransduction signaling loop induces negative selection in the
+    thymus
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Jinsung Hong
+  - Chenghao Ge
+  - Prithiviraj Jothikumar
+  - Zhou Yuan
+  - Baoyu Liu
+  - Ke Bai
+  - Kaitao Li
+  - William Rittase
+  - Miho Shinzawa
+  - Yun Zhang
+  - Amy Palin
+  - Paul Love
+  - Xinhua Yu
+  - Khalid Salaita
+  - Brian D. Evavold
+  - Alfred Singer
+  - Cheng Zhu
+  publisher: Nature Immunology
+  date: '2018-11-12'
+  link: https://doi.org/g9fnrn
+  orcid: 0000-0002-1718-565X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1038/s41467-018-07506-1
+  title: "Cis interaction between sialylated Fc\u03B3RIIA and the \u03B1I-domain of\
+    \ Mac-1 limits antibody-mediated neutrophil recruitment"
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - Gurpanna Saggu
+  - Koshu Okubo
+  - Yunfeng Chen
+  - Ravi Vattepu
+  - Naotake Tsuboi
+  - Florencia Rosetti
+  - Xavier Cullere
+  - Nathaniel Washburn
+  - Suhail Tahir
+  - Aaron M. Rosado
+  - Steven M. Holland
+  - Robert M. Anthony
+  - Mehmet Sen
+  - Cheng Zhu
+  - Tanya N. Mayadas
+  publisher: Nature Communications
+  date: '2018-11-29'
+  link: https://doi.org/gjs8zn
+  orcid: 0000-0002-1718-565X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1021/acs.nanolett.8b01374
+  title: Programmable Multivalent DNA-Origami Tension Probes for Reporting Cellular
+    Traction Forces
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Palash K. Dutta
+  - Yun Zhang
+  - Aaron T. Blanchard
+  - Chenghao Ge
+  - Muaz Rushdi
+  - Kristin Weiss
+  - Cheng Zhu
+  - Yonggang Ke
+  - Khalid Salaita
+  publisher: Nano Letters
+  date: '2018-06-18'
+  link: https://doi.org/gd96x4
+  orcid: 0000-0002-1718-565X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1182/blood-2017-05-785253
+  title: Shear-induced integrin signaling in platelet phosphatidylserine exposure,
+    microvesicle release, and coagulation
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Aiming Pang
+  - Yujie Cui
+  - Yunfeng Chen
+  - Ni Cheng
+  - M. Keegan Delaney
+  - Minyi Gu
+  - Aleksandra Stojanovic-Terpo
+  - Cheng Zhu
+  - Xiaoping Du
+  publisher: Blood
+  date: '2018-08-02'
+  link: https://doi.org/gd3dvw
+  orcid: 0000-0002-1718-565X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1074/jbc.M116.767186
+  title: Glycan Bound to the Selectin Low Affinity State Engages Glu-88 to Stabilize
+    the High Affinity State under Force
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Padmaja Mehta-D'souza
+  - Arkadiusz G. Klopocki
+  - Vaheh Oganesyan
+  - Simon Terzyan
+  - Timothy Mather
+  - Zhenhai Li
+  - Sumith R. Panicker
+  - Cheng Zhu
+  - Rodger P. McEver
+  publisher: Journal of Biological Chemistry
+  date: '2017-02-01'
+  link: https://doi.org/f9v35t
+  orcid: 0000-0002-1718-565X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.1074/jbc.M116.763888
+  title: In situ and in silico kinetic analyses of programmed cell death-1 (PD-1)
+    receptor, programmed cell death ligands, and B7-1 protein interaction network
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Kaitao Li
+  - Xiaoxiao Cheng
+  - Andreas Tilevik
+  - Simon J. Davis
+  - Cheng Zhu
+  publisher: Journal of Biological Chemistry
+  date: '2017-04-01'
+  link: https://doi.org/f954nf
+  orcid: 0000-0002-1718-565X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1038/ncomms15196
+  title: L-selectin mechanochemistry restricts neutrophil priming in vivo
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Zhenghui Liu
+  - Tadayuki Yago
+  - Nan Zhang
+  - Sumith R. Panicker
+  - Ying Wang
+  - Longbiao Yao
+  - "Padmaja Mehta-D\u2019souza"
+  - Lijun Xia
+  - Cheng Zhu
+  - Rodger P. McEver
+  publisher: Nature Communications
+  date: '2017-05-12'
+  link: https://doi.org/f97bc4
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1172/JCI94039
+  title: "Neutrophil Fc\u03B3RIIA promotes IgG-mediated glomerular neutrophil capture\
+    \ via Abl/Src kinases"
+  authors:
+  - Hiroshi Nishi
+  - Kazuhiro Furuhashi
+  - Xavier Cullere
+  - Gurpanna Saggu
+  - Mark J. Miller
+  - Yunfeng Chen
+  - Florencia Rosetti
+  - Samantha L. Hamilton
+  - Lihua Yang
+  - Spencer P. Pittman
+  - Jiexi Liao
+  - Jan M. Herter
+  - Jeffrey C. Berry
+  - Daniel J. DeAngelo
+  - Cheng Zhu
+  - George C. Tsokos
+  - Tanya N. Mayadas
+  publisher: Journal of Clinical Investigation
+  date: '2017-09-11'
+  link: https://doi.org/gb4vrn
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.aaf9739
+  title: Notch-Jagged complex structure implicates a catch bond in tuning ligand sensitivity
+  authors:
+  - Vincent C. Luca
+  - Byoung Choul Kim
+  - Chenghao Ge
+  - Shinako Kakuda
+  - Di Wu
+  - Mehdi Roein-Peikar
+  - Robert S. Haltiwanger
+  - Cheng Zhu
+  - Taekjip Ha
+  - K. Christopher Garcia
+  publisher: Science
+  date: '2017-03-24'
+  link: https://doi.org/f9wsnf
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/srep35954
+  title: A model for cyclic mechanical reinforcement
+  authors:
+  - Zhenhai Li
+  - Fang Kong
+  - Cheng Zhu
+  publisher: Scientific Reports
+  date: '2016-10-27'
+  link: https://doi.org/f89vd5
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.1600178
+  title: Constitutive Lck Activity Drives Sensitivity Differences between CD8+ Memory
+    T Cell Subsets
+  authors:
+  - Duane Moogk
+  - Shi Zhong
+  - Zhiya Yu
+  - Ivan Liadi
+  - William Rittase
+  - Victoria Fang
+  - Janna Dougherty
+  - Arianne Perez-Garcia
+  - Iman Osman
+  - Cheng Zhu
+  - Navin Varadarajan
+  - Nicholas P Restifo
+  - Alan B Frey
+  - Michelle Krogsgaard
+  publisher: The Journal of Immunology
+  date: '2016-07-01'
+  link: https://doi.org/f8vnpz
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1091/mbc.E16-06-0470
+  title: "Effects of anchor structure and glycosylation of Fc\u03B3 receptor III on\
+    \ ligand binding affinity"
+  authors:
+  - Ning Jiang
+  - Wei Chen
+  - Prithiviraj Jothikumar
+  - Jaina M. Patel
+  - Rangaiah Shashidharamurthy
+  - Periasamy Selvaraj
+  - Cheng Zhu
+  publisher: Molecular Biology of the Cell
+  date: '2016-11-07'
+  link: https://doi.org/f896dc
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bpj.2016.07.014
+  title: Flow-Enhanced Stability of Rolling Adhesion through E-Selectin
+  authors:
+  - Quhuan Li
+  - Annica Wayman
+  - Jiangguo Lin
+  - Ying Fang
+  - Cheng Zhu
+  - Jianhua Wu
+  publisher: Biophysical Journal
+  date: '2016-08-01'
+  link: https://doi.org/f82m9b
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1172/JCI85679
+  title: Hotspot autoimmune T cell receptor binding underlies pathogen and insulin
+    peptide cross-reactivity
+  authors:
+  - David K. Cole
+  - Anna M. Bulek
+  - Garry Dolton
+  - Andrea J. Schauenberg
+  - Barbara Szomolay
+  - William Rittase
+  - Andrew Trimby
+  - Prithiviraj Jothikumar
+  - Anna Fuller
+  - Ania Skowera
+  - Jamie Rossjohn
+  - Cheng Zhu
+  - John J. Miles
+  - Mark Peakman
+  - Linda Wooldridge
+  - Pierre J. Rizkallah
+  - Andrew K. Sewell
+  publisher: Journal of Clinical Investigation
+  date: '2016-05-16'
+  link: https://doi.org/gqct8s
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10439-016-1683-6
+  title: Imaging Spatiotemporal Activities of ZAP-70 in Live T Cells Using a FRET-Based
+    Biosensor
+  authors:
+  - Kaitao Li
+  - Xue Xiang
+  - Jie Sun
+  - Hai-Tao He
+  - Jianhua Wu
+  - Yingxiao Wang
+  - Cheng Zhu
+  publisher: Annals of Biomedical Engineering
+  date: '2016-07-06'
+  link: https://doi.org/gmjmbd
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.immuni.2016.10.024
+  title: Local Cellular and Cytokine Cues in the Spleen Regulate In Situ T Cell Receptor
+    Affinity, Function, and Fate of CD8 + T Cells
+  authors:
+  - Young-Jin Seo
+  - Prithiviraj Jothikumar
+  - "Mehul\_S. Suthar"
+  - Cheng Zhu
+  - Arash Grakoui
+  publisher: Immunity
+  date: '2016-11-01'
+  link: https://doi.org/f9fv92
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/ncb3336
+  title: Mechanical regulation of a molecular clutch defines force transmission and
+    transduction in response to matrix rigidity
+  authors:
+  - Alberto Elosegui-Artola
+  - Roger Oria
+  - Yunfeng Chen
+  - Anita Kosmalska
+  - "Carlos P\xE9rez-Gonz\xE1lez"
+  - Natalia Castro
+  - Cheng Zhu
+  - Xavier Trepat
+  - Pere Roca-Cusachs
+  publisher: Nature Cell Biology
+  date: '2016-04-11'
+  link: https://doi.org/f8kbpw
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.yexcr.2016.10.001
+  title: Molecular mechanisms of mechanotransduction in integrin-mediated cell-matrix
+    adhesion
+  authors:
+  - Zhenhai Li
+  - Hyunjung Lee
+  - Cheng Zhu
+  publisher: Experimental Cell Research
+  date: '2016-11-01'
+  link: https://doi.org/f9c4hd
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/srep35058
+  title: Regulation of actin catch-slip bonds with a RhoA-formin module
+  authors:
+  - Cho-yin Lee
+  - Jizhong Lou
+  - Kuo-Kuang Wen
+  - Melissa McKane
+  - Suzanne G. Eskin
+  - Peter A. Rubenstein
+  - Shu Chien
+  - Shoichiro Ono
+  - Cheng Zhu
+  - Larry V. McIntire
+  publisher: Scientific Reports
+  date: '2016-10-12'
+  link: https://doi.org/f86xz4
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.1501407
+  title: "Force-Regulated In Situ TCR\u2013Peptide-Bound MHC Class II Kinetics Determine\
+    \ Functions of CD4+ T Cells"
+  authors:
+  - Jinsung Hong
+  - Stephen P Persaud
+  - Stephen Horvath
+  - Paul M Allen
+  - Brian D Evavold
+  - Cheng Zhu
+  publisher: The Journal of Immunology
+  date: '2015-10-01'
+  link: https://doi.org/f7vgxm
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1146/annurev-physchem-040214-121742
+  title: Molecular Force Spectroscopy on Cells
+  authors:
+  - Baoyu Liu
+  - Wei Chen
+  - Cheng Zhu
+  publisher: Annual Review of Physical Chemistry
+  date: '2015-04-01'
+  link: https://doi.org/g9fnrp
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.1504971112
+  title: "Pre-TCR ligand binding impacts thymocyte development before \u03B1\u03B2\
+    TCR expression"
+  authors:
+  - Robert J. Mallis
+  - Ke Bai
+  - Haribabu Arthanari
+  - Rebecca E. Hussey
+  - Maris Handley
+  - Zhenhai Li
+  - Loice Chingozha
+  - Jonathan S. Duke-Cohan
+  - Hang Lu
+  - Jia-Huai Wang
+  - Cheng Zhu
+  - Gerhard Wagner
+  - Ellis L. Reinherz
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2015-06-08'
+  link: https://doi.org/f7jgs7
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.1501464
+  title: Regulatory and T Effector Cells Have Overlapping Low to High Ranges in TCR
+    Affinities for Self during Demyelinating Disease
+  authors:
+  - Jennifer D Hood
+  - Veronika I Zarnitsyna
+  - Cheng Zhu
+  - Brian D Evavold
+  publisher: The Journal of Immunology
+  date: '2015-11-01'
+  link: https://doi.org/f7t37w
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/eji.201445358
+  title: "The cellular environment regulates in situ kinetics of T\u2010cell receptor\
+    \ interaction with peptide major histocompatibility complex"
+  authors:
+  - Baoyu Liu
+  - Wei Chen
+  - Kannan Natarajan
+  - Zhenhai Li
+  - David H. Margulies
+  - Cheng Zhu
+  publisher: European Journal of Immunology
+  date: '2015-05-22'
+  link: https://doi.org/f273rh
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/eji.201343774
+  title: "2<scp>D TCR</scp>\u2013p<scp>MHC</scp>\u2013<scp>CD</scp>8 kinetics determines\
+    \ <scp>T</scp>\u2010cell responses in a self\u2010antigen\u2010specific <scp>TCR</scp>\
+    \ system"
+  authors:
+  - Baoyu Liu
+  - Shi Zhong
+  - Karolina Malecek
+  - Laura A. Johnson
+  - Steven A. Rosenberg
+  - Cheng Zhu
+  - Michelle Krogsgaard
+  publisher: European Journal of Immunology
+  date: '2013-10-20'
+  link: https://doi.org/f2pkfk
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/ac5019843
+  title: A Generalizable, Tunable Microfluidic Platform for Delivering Fast Temporally
+    Varying Chemical Signals to Probe Single-Cell Response Dynamics
+  authors:
+  - Loice Chingozha
+  - Mei Zhan
+  - Cheng Zhu
+  - Hang Lu
+  publisher: Analytical Chemistry
+  date: '2014-10-10'
+  link: https://doi.org/f6mjck
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cell.2014.02.053
+  title: Accumulation of Dynamic Catch Bonds between TCR and Agonist Peptide-MHC Triggers
+    T Cell Signaling
+  authors:
+  - Baoyu Liu
+  - Wei Chen
+  - "Brian\_D. Evavold"
+  - Cheng Zhu
+  publisher: Cell
+  date: '2014-04-01'
+  link: https://doi.org/f68g6h
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.1303436
+  title: Accumulation of Serial Forces on TCR and CD8 Frequently Applied by Agonist
+    Antigenic Peptides Embedded in MHC Molecules Triggers Calcium in T Cells
+  authors:
+  - Sergey Pryshchep
+  - Veronika I Zarnitsyna
+  - Jinsung Hong
+  - Brian D Evavold
+  - Cheng Zhu
+  publisher: The Journal of Immunology
+  date: '2014-07-01'
+  link: https://doi.org/f58kf8
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/ncomms6167
+  title: DNA-based digital tension probes reveal integrin forces during early cell
+    adhesion
+  authors:
+  - Yun Zhang
+  - Chenghao Ge
+  - Cheng Zhu
+  - Khalid Salaita
+  publisher: Nature Communications
+  date: '2014-10-24'
+  link: https://doi.org/f6nm9b
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.1314209111
+  title: "Dynamic control of \u03B21 integrin adhesion by the plexinD1-sema3E axis"
+  authors:
+  - Young I. Choi
+  - Jonathan S. Duke-Cohan
+  - Wei Chen
+  - Baoyu Liu
+  - "J\xE9r\xE9mie Rossy"
+  - Thibault Tabarin
+  - Lining Ju
+  - Jingang Gui
+  - Katharina Gaus
+  - Cheng Zhu
+  - Ellis L. Reinherz
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2013-12-16'
+  link: https://doi.org/f5pg95
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10439-013-0904-5
+  title: 'Mechanochemitry: A Molecular Biomechanics View of Mechanosensing'
+  authors:
+  - Cheng Zhu
+  publisher: Annals of Biomedical Engineering
+  date: '2013-09-05'
+  link: https://doi.org/f5tgx4
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.1218407110
+  title: Actin depolymerization under force is governed by lysine 113:glutamic acid
+    195-mediated catch-slip bonds
+  authors:
+  - Cho-yin Lee
+  - Jizhong Lou
+  - Kuo-kuang Wen
+  - Melissa McKane
+  - Suzanne G. Eskin
+  - Shoichiro Ono
+  - Shu Chien
+  - Peter A. Rubenstein
+  - Cheng Zhu
+  - Larry V. McIntire
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2013-03-04'
+  link: https://doi.org/f4vdgq
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/bioinformatics/btt180
+  title: "An HMM-based algorithm for evaluating rates of receptor\u2013ligand binding\
+    \ kinetics from thermal fluctuation data"
+  authors:
+  - Lining Ju
+  - Yijie Dylan Wang
+  - Ying Hung
+  - Chien-Fu Jeff Wu
+  - Cheng Zhu
+  publisher: Bioinformatics
+  date: '2013-04-18'
+  link: https://doi.org/f4zxjx
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-1-4614-4921-8_3
+  title: Catch Bonds of Integrin/Ligand Interactions
+  authors:
+  - Cheng Zhu
+  - Wei Chen
+  publisher: Single-molecule Studies of Proteins
+  date: '2012-01-01'
+  link: https://doi.org/g9fnrq
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.molcel.2013.01.015
+  title: "Cyclic Mechanical Reinforcement of Integrin\u2013Ligand Interactions"
+  authors:
+  - Fang Kong
+  - Zhenhai Li
+  - "William\_M. Parks"
+  - "David\_W. Dumbauld"
+  - "Andr\xE9s\_J. Garc\xEDa"
+  - "A.\_Paul Mould"
+  - "Martin\_J. Humphries"
+  - Cheng Zhu
+  publisher: Molecular Cell
+  date: '2013-03-01'
+  link: https://doi.org/f4szhf
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.molcel.2013.03.008
+  title: "Cyclic Mechanical Reinforcement of Integrin\u2013Ligand Interactions"
+  authors:
+  - Fang Kong
+  - Zhenhai Li
+  - "William\_M. Parks"
+  - "David\_W. Dumbauld"
+  - "Andr\xE9s\_J. Garc\xEDa"
+  - "A.\_Paul Mould"
+  - "Martin\_J. Humphries"
+  - Cheng Zhu
+  publisher: Molecular Cell
+  date: '2013-03-01'
+  link: https://doi.org/g9fnrr
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/01621459.2013.836973
+  title: Hidden Markov Models With Applications in Cell Adhesion Experiments
+  authors:
+  - Ying Hung
+  - Yijie Wang
+  - Veronika Zarnitsyna
+  - Cheng Zhu
+  - C. F. Jeff Wu
+  publisher: Journal of the American Statistical Association
+  date: '2013-12-01'
+  link: https://doi.org/f5mrbv
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/imr.12016
+  title: "Insights from <i>in situ</i> analysis of TCR\u2013<scp>pMHC</scp> recognition:\
+    \ response of an interaction network"
+  authors:
+  - Cheng Zhu
+  - Ning Jiang
+  - Jun Huang
+  - Veronika I. Zarnitsyna
+  - Brian D. Evavold
+  publisher: Immunological Reviews
+  date: '2012-12-19'
+  link: https://doi.org/f4mj83
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1182/blood-2013-03-484550
+  title: Loss of the F-BAR protein CIP4 reduces platelet production by impairing membrane-cytoskeleton
+    remodeling
+  authors:
+  - Yolande Chen
+  - Jorie Aardema
+  - Sayali Kale
+  - Zakary L. Whichard
+  - Arinola Awomolo
+  - Elisabeth Blanchard
+  - Brian Chang
+  - David R. Myers
+  - Lining Ju
+  - Reginald Tran
+  - David Reece
+  - Hilary Christensen
+  - Siham Boukour
+  - Najet Debili
+  - Ted S. Strom
+  - David Rawlings
+  - "Francisco X. V\xE1zquez"
+  - Gregory A. Voth
+  - Cheng Zhu
+  - Walter H. A. Kahr
+  - Wilbur A. Lam
+  - Seth J. Corey
+  publisher: Blood
+  date: '2013-09-05'
+  link: https://doi.org/f49fj7
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/imr.12122
+  title: "Mechanical regulation of T\u2010cell functions"
+  authors:
+  - Wei Chen
+  - Cheng Zhu
+  publisher: Immunological Reviews
+  date: '2013-10-10'
+  link: https://doi.org/f5c5k5
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0057202
+  title: P-Selectin Glycoprotein Ligand-1 Forms Dimeric Interactions with E-Selectin
+    but Monomeric Interactions with L-Selectin on Cell Surfaces
+  authors:
+  - Yan Zhang
+  - Ning Jiang
+  - Veronika I. Zarnitsyna
+  - Arkadiusz G. Klopocki
+  - Rodger P. McEver
+  - Cheng Zhu
+  publisher: PLoS ONE
+  date: '2013-02-25'
+  link: https://doi.org/f4n4rf
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1083/jcb.201201091
+  title: Observing force-regulated conformational changes and ligand dissociation
+    from a single integrin on cells
+  authors:
+  - Wei Chen
+  - Jizhong Lou
+  - Evan A. Evans
+  - Cheng Zhu
+  publisher: Journal of Cell Biology
+  date: '2012-10-29'
+  link: https://doi.org/f4dk8v
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1478-3975/9/4/045005
+  title: 'T cell triggering: insights from 2D kinetics analysis of molecular interactions'
+  authors:
+  - Veronika Zarnitsyna
+  - Cheng Zhu
+  publisher: Physical Biology
+  date: '2012-08-01'
+  link: https://doi.org/g9fnrs
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12195-011-0211-x
+  title: A FRET-Based Biosensor for Imaging SYK Activities in Living Cells
+  authors:
+  - Xue Xiang
+  - Jie Sun
+  - Jianhua Wu
+  - Hai-Tao He
+  - Yingxiao Wang
+  - Cheng Zhu
+  publisher: Cellular and Molecular Bioengineering
+  date: '2011-10-21'
+  link: https://doi.org/c2zrvc
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.immuni.2011.09.013
+  title: T Cell Receptor Signaling Is Limited by Docking Geometry to Peptide-Major
+    Histocompatibility Complex
+  authors:
+  - "Jarrett\_J. Adams"
+  - Samanthi Narayanan
+  - Baoyu Liu
+  - "Michael\_E. Birnbaum"
+  - "Andrew\_C. Kruse"
+  - "Natalie\_A. Bowerman"
+  - Wei Chen
+  - "Aron\_M. Levin"
+  - "Janet\_M. Connolly"
+  - Cheng Zhu
+  - "David\_M. Kranz"
+  - "K.\_Christopher Garcia"
+  publisher: Immunity
+  date: '2011-11-01'
+  link: https://doi.org/bx63wt
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bpj.2010.01.020
+  title: A Model for Single-Substrate Trimolecular Enzymatic Kinetics
+  authors:
+  - Wei Chen
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2010-05-01'
+  link: https://doi.org/cj3sqz
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12195-010-0117-z
+  title: Simulated Thermal Unfolding of the von Willebrand Factor A Domains
+  authors:
+  - Wei Chen
+  - Jizhong Lou
+  - Cheng Zhu
+  publisher: Cellular and Molecular Bioengineering
+  date: '2010-04-06'
+  link: https://doi.org/bv67xn
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bpj.2010.05.040
+  title: Triphasic Force Dependence of E-Selectin/Ligand Dissociation Governs Cell
+    Rolling under Flow
+  authors:
+  - Annica M. Wayman
+  - Wei Chen
+  - Rodger P. McEver
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2010-08-01'
+  link: https://doi.org/dhdh7k
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jbiomech.2008.11.020
+  title: Bending rigidities of cell surface molecules P-selectin and PSGL-1
+  authors:
+  - Ying Fang
+  - Jianhua Wu
+  - Rodger P. McEver
+  - Cheng Zhu
+  publisher: Journal of Biomechanics
+  date: '2009-02-01'
+  link: https://doi.org/fw3gvt
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S1063-5823(09)64007-2
+  title: "Chapter 7 Biophysical Regulation of Selectin\u2013Ligand Interactions Under\
+    \ Flow"
+  authors:
+  - Rodger P. McEver
+  - Cheng Zhu
+  publisher: Current Topics in Membranes
+  date: '2009-01-01'
+  link: https://doi.org/bj6jk9
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1083/jcb.200810002
+  title: Demonstration of catch bonds between an integrin and its ligand
+  authors:
+  - Fang Kong
+  - "Andr\xE9s J. Garc\xEDa"
+  - A. Paul Mould
+  - Martin J. Humphries
+  - Cheng Zhu
+  publisher: Journal of Cell Biology
+  date: '2009-06-29'
+  link: https://doi.org/bkdkbw
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1198/016214508000000508
+  title: Binary Time Series Modeling With Application to Adhesion Frequency Experiments
+  authors:
+  - Ying Hung
+  - Veronika Zarnitsyna
+  - Yan Zhang
+  - Cheng Zhu
+  - C. F. Jeff Wu
+  publisher: Journal of the American Statistical Association
+  date: '2008-09-01'
+  link: https://doi.org/fbfsdk
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.0801965105
+  title: "Flow induces loop-to-\u03B2-hairpin transition on the \u03B2-switch of platelet\
+    \ glycoprotein Ib\u03B1"
+  authors:
+  - Jizhong Lou
+  - Cheng Zhu
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2008-09-16'
+  link: https://doi.org/fdc845
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1529/biophysj.108.132324
+  title: "Flow-Induced Structural Transition in the \u03B2-Switch Region of Glycoprotein\
+    \ Ib"
+  authors:
+  - Zhongzhou Chen
+  - Jizhong Lou
+  - Cheng Zhu
+  - Klaus Schulten
+  publisher: Biophysical Journal
+  date: '2008-08-01'
+  link: https://doi.org/djwdmt
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.181.10.6843
+  title: MHC Variant Peptide-Mediated Anergy of Encephalitogenic T Cells Requires
+    SHP-1
+  authors:
+  - Heather A. Wasserman
+  - Carrie D. Beal
+  - Yan Zhang
+  - Ning Jiang
+  - Cheng Zhu
+  - Brian D. Evavold
+  publisher: The Journal of Immunology
+  date: '2008-11-15'
+  link: https://doi.org/f3v4rx
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1529/biophysj.107.114447
+  title: Measuring Diffusion and Binding Kinetics by Contact Area FRAP
+  authors:
+  - Timothy P. Tolentino
+  - Jianhua Wu
+  - Veronika I. Zarnitsyna
+  - Ying Fang
+  - Michael L. Dustin
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2008-07-01'
+  link: https://doi.org/bd9jzb
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1529/biophysj.107.117895
+  title: Monitoring Receptor-Ligand Interactions between Surfaces by Thermal Fluctuations
+  authors:
+  - Wei Chen
+  - Evan A. Evans
+  - Rodger P. McEver
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2008-01-01'
+  link: https://doi.org/bhnzb4
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1172/JCI35754
+  title: "Platelet glycoprotein Ib\u03B1 forms catch bonds with human WT vWF but not\
+    \ with type 2B von Willebrand disease vWF"
+  authors:
+  - Tadayuki Yago
+  - Jizhong Lou
+  - Tao Wu
+  - Jun Yang
+  - Jonathan J. Miner
+  - Leslie Coburn
+  - "Jos\xE9 A. L\xF3pez"
+  - Miguel A. Cruz
+  - Jing-Fei Dong
+  - Larry V. McIntire
+  - Rodger P. McEver
+  - Cheng Zhu
+  publisher: Journal of Clinical Investigation
+  date: '2008-08-01'
+  link: https://doi.org/d3gvv8
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10439-008-9489-9
+  title: The Differential Effect of Endothelial Cell Factors on In Vitro Motility
+    of Malignant and Non-malignant Cells
+  authors:
+  - Adele Wright
+  - Yu-Hua Li
+  - Cheng Zhu
+  publisher: Annals of Biomedical Engineering
+  date: '2008-04-09'
+  link: https://doi.org/dqhdmm
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.179.11.7653
+  title: Kinetics of MHC-CD8 Interaction at the T Cell Membrane
+  authors:
+  - Jun Huang
+  - Lindsay J. Edwards
+  - Brian D. Evavold
+  - Cheng Zhu
+  publisher: The Journal of Immunology
+  date: '2007-12-01'
+  link: https://doi.org/f3vvbv
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1529/biophysj.106.090969
+  title: Transport Governs Flow-Enhanced Cell Tethering through L-Selectin at Threshold
+    Shear
+  authors:
+  - Tadayuki Yago
+  - Veronika I. Zarnitsyna
+  - Arkadiusz G. Klopocki
+  - Rodger P. McEver
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2007-01-01'
+  link: https://doi.org/cxj3gn
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1083/jcb.200606056
+  title: Flow-enhanced adhesion regulated by a selectin interdomain hinge
+  authors:
+  - Jizhong Lou
+  - Tadayuki Yago
+  - Arkadiusz G. Klopocki
+  - Padmaja Mehta
+  - Wei Chen
+  - Veronika I. Zarnitsyna
+  - Nicolai V. Bovin
+  - Cheng Zhu
+  - Rodger P. McEver
+  publisher: The Journal of Cell Biology
+  date: '2006-09-21'
+  link: https://doi.org/dcnc4f
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1529/biophysj.106.082909
+  title: Probabilistic Modeling of Rosette Formation
+  authors:
+  - Mian Long
+  - Juan Chen
+  - Ning Jiang
+  - Periasamy Selvaraj
+  - Rodger P. McEver
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2006-07-01'
+  link: https://doi.org/dfjtmj
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.0600899103
+  title: T cells like a firm molecular handshake
+  authors:
+  - Michael L. Dustin
+  - Cheng Zhu
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2006-03-13'
+  link: https://doi.org/dhrm4p
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1115/1.2073647
+  title: Thermo-Mechanical Responses of a Surface-Coupled AFM Cantilever
+  authors:
+  - Jianhua Wu
+  - Ying Fang
+  - Dong Yang
+  - Cheng Zhu
+  publisher: Journal of Biomechanical Engineering
+  date: '2005-08-15'
+  link: https://doi.org/fvnnk3
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1515/IJNSNS.2002.3.3-4.199
+  title: A Micropipet Aspiration System to Measure the Kinetics of Selectin/Ligand
+    Interactions
+  authors:
+  - Jun Huang
+  - Juan Chen
+  - Mian Long
+  - Cheng Zhu
+  publisher: International Journal of Nonlinear Sciences and Numerical Simulation
+  date: '2002-01-01'
+  link: https://doi.org/fktdvw
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1083/jcb.200204041
+  title: Distinct molecular and cellular contributions to stabilizing selectin-mediated
+    rolling under flow
+  authors:
+  - Tadayuki Yago
+  - "Anne Leppa\u0308nen"
+  - Haiying Qiu
+  - Warren D. Marcus
+  - Matthias U. Nollert
+  - Cheng Zhu
+  - Richard D. Cummings
+  - Rodger P. McEver
+  publisher: The Journal of Cell Biology
+  date: '2002-08-12'
+  link: https://doi.org/fpw3w7
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S0006-3495(01)75677-9
+  title: 'Diffusion of Microspheres in Shear Flow Near a Wall: Use to Measure Binding
+    Rates between Attached Molecules'
+  authors:
+  - Anne Pierres
+  - Anne-Marie Benoliel
+  - Cheng Zhu
+  - Pierre Bongrand
+  publisher: Biophysical Journal
+  date: '2001-07-01'
+  link: https://doi.org/bc328t
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.171248098
+  title: Dimerization of a selectin and its ligand stabilizes cell rolling and enhances
+    tether strength in shear flow
+  authors:
+  - Vishwanath Ramachandran
+  - Tadayuki Yago
+  - Terry Kay Epperson
+  - Marcin M. A. Kobzdej
+  - Matthias U. Nollert
+  - Richard D. Cummings
+  - Cheng Zhu
+  - Rodger P. McEver
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2001-07-31'
+  link: https://doi.org/fsckvc
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1114/1.1415529
+  title: Kinetic Measurements of Cell Surface E-Selectin/Carbohydrate Ligand Interactions
+  authors:
+  - Mian Long
+  - Hong Zhao
+  - Kuo-Sen Huang
+  - Cheng Zhu
+  publisher: Annals of Biomedical Engineering
+  date: '2001-11-01'
+  link: https://doi.org/bbsmjb
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1074/jbc.M010427200
+  title: Quantifying the Impact of Membrane Microtopology on Effective Two-dimensional
+    Affinity
+  authors:
+  - Tom E. Williams
+  - Shanmugam Nagarajan
+  - Periasamy Selvaraj
+  - Cheng Zhu
+  publisher: Journal of Biological Chemistry
+  date: '2001-04-01'
+  link: https://doi.org/b2z7jf
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S0006-3495(00)76436-8
+  title: "Concurrent and Independent Binding of Fc\u03B3 Receptors IIa and IIIb to\
+    \ Surface-Bound IgG"
+  authors:
+  - Tom E. Williams
+  - Shanmugam Nagarajan
+  - Periasamy Selvaraj
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2000-10-01'
+  link: https://doi.org/brpfct
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S0006-3495(00)76435-6
+  title: 'Concurrent Binding to Multiple Ligands: Kinetic Rates of CD16b for Membrane-Bound
+    IgG1 and IgG2'
+  authors:
+  - Tom E. Williams
+  - Periasamy Selvaraj
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2000-10-01'
+  link: https://doi.org/fv2mqm
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S0021-9290(99)00163-3
+  title: Kinetics and mechanics of cell adhesion
+  authors:
+  - Cheng Zhu
+  publisher: Journal of Biomechanics
+  date: '2000-01-01'
+  link: https://doi.org/csqzkc
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S0006-3495(00)76434-4
+  title: Modeling Concurrent Binding of Multiple Molecular Species in Cell Adhesion
+  authors:
+  - Cheng Zhu
+  - Tom E. Williams
+  publisher: Biophysical Journal
+  date: '2000-10-01'
+  link: https://doi.org/cnbwm9
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1074/jbc.275.14.10235
+  title: "The Membrane Anchor Influences Ligand Binding Two-dimensional Kinetic Rates\
+    \ and Three-dimensional Affinity of Fc\u03B3RIII (CD16)"
+  authors:
+  - Scott E. Chesla
+  - Ping Li
+  - Shanmugam Nagarajan
+  - Periasamy Selvaraj
+  - Cheng Zhu
+  publisher: Journal of Biological Chemistry
+  date: '2000-04-01'
+  link: https://doi.org/bptq7k
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1023/A:1006614232388
+  title: ''
+  authors:
+  - Yu-Hua Li
+  - Cheng Zhu
+  publisher: Clinical &amp; Experimental Metastasis
+  date: '1999-01-01'
+  link: https://doi.org/fw6tdp
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.96.24.13771
+  title: Tyrosine replacement in P-selectin glycoprotein ligand-1 affects distinct
+    kinetic and mechanical properties of bonds with P- and L-selectin
+  authors:
+  - Vishwanath Ramachandran
+  - Matthias U. Nollert
+  - Haiying Qiu
+  - Wen-Jun Liu
+  - Richard D. Cummings
+  - Cheng Zhu
+  - Rodger P. McEver
+  publisher: Proceedings of the National Academy of Sciences
+  date: '1999-11-23'
+  link: https://doi.org/b45fvn
+  orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S0022-5193(05)80473-4
+  title: 'A thermodynamic and biomechanical theory of cell adhesion Part I: General
+    formulism'
+  authors:
+  - Cheng Zhu
+  publisher: Journal of Theoretical Biology
+  date: '1991-05-01'
+  link: https://doi.org/brmm9w
+  orcid: 0000-0002-1718-565X
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -184,9 +1269,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -203,21 +1285,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
