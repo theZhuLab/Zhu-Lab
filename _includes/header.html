@@ -40,6 +40,15 @@
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
+ {% assign pages = site.pages | where_exp: "page", "page.nav" %}
+<ul>
+  {% for page in pages %}
+    {% if page.nav.parent %}
+      <li>{{ page.title }} — parent: {{ page.nav.parent }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+  
 <nav>
   {% assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" %}
   {% assign parents = pages | where_exp: "page", "page.nav.parent == nil" %}
