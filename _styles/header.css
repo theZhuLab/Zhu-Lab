@@ -144,4 +144,35 @@ header[data-big] .subtitle {
   font-size: var(--large);
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  min-width: 160px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
 /*# sourceMappingURL=header.css.map */
