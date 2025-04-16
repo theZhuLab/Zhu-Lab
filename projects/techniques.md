@@ -1,5 +1,6 @@
 ---
 title: Techniques
-parent: projects
-nav_order: 3
+nav: 
+  order: 3 
+  parent: projects 
 ---
