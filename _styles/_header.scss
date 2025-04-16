@@ -134,13 +134,19 @@ header[data-big] {
   flex-direction: column;
   padding: $big-padding 20px;
 
+  @if $sticky {
+    top: unset;
+  }
+
   .home {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .logo {
     height: $logo-big;
+    flex-shrink: 0;
   }
 
   .title-text {
@@ -149,11 +155,6 @@ header[data-big] {
     text-align: center;
   }
 
-  // DON'T center everything anymore!
-  justify-content: initial; // override the centering
-  align-items: initial;
-}
-
   .title {
     font-size: var(--xxl);
   }
@@ -161,6 +162,7 @@ header[data-big] {
   .subtitle {
     font-size: var(--large);
   }
+}
 
 .dropdown {
   position: relative;
