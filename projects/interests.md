@@ -1,5 +1,6 @@
 ---
 title: Interests
-parent: projects
-nav_order: 1
+nav: 
+  order: 1
+  parent: projects
 ---
