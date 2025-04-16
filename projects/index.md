@@ -2,8 +2,6 @@
 title: Research
 nav:
   order: 2
-  has_children: true
-  permalink: /projects/
   tooltip: Interests, Tools, and Techniques
 ---
 
