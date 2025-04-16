@@ -181,27 +181,4 @@ header[data-big] .subtitle {
   background-color: #f0f0f0;
 }
 
-.footer-full-width {
-  width: 100%;
-  max-width: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-}
-
-footer {
-  background-color: var(--background, #f0f0f0); /* optional override */
-  margin-top: 2rem;
-}
-
 /*# sourceMappingURL=main.css.map */
