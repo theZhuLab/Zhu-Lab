@@ -1256,6 +1256,715 @@
   orcid: 0000-0002-1718-565X
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1007/s00603-024-04154-4
+  title: "Investigating Mechanical Characteristics of Rocks Under Freeze\u2013Thaw\
+    \ Cycles Using Grain-Based Model"
+  authors:
+  - Chenchen Huang
+  - Cheng Zhu
+  - Yifei Ma
+  publisher: Rock Mechanics and Rock Engineering
+  date: '2024-09-24'
+  link: https://doi.org/g9fs4b
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/00393630.2024.2420574
+  title: Phenotypic Trait of Painting Cracks
+  authors:
+  - Mohammad Abu-Haifa
+  - Seung Jae Lee
+  - Cheng Zhu
+  publisher: Studies in Conservation
+  date: '2024-11-07'
+  link: https://doi.org/g9fs4c
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11440-024-02347-3
+  title: 'Morphology characterization of unsaturated soils under drying-wetting cycles:
+    crack opening and closure'
+  authors:
+  - Zhuang Zhuo
+  - Weiling Cai
+  - Cheng Zhu
+  - Chao-Sheng Tang
+  - Kaniz Roksana
+  publisher: Acta Geotechnica
+  date: '2024-05-12'
+  link: https://doi.org/g9fs4d
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/03611981241233574
+  title: Electrical Resistivity Behavior of Saline Soil under Low-Temperature Conditions
+  authors:
+  - Rui Liu
+  - Cheng Zhu
+  - John Schmalzel
+  - Benjamin Barrowes
+  - Danney Glaser
+  - Michele Maxson
+  - Wade Lein
+  publisher: 'Transportation Research Record: Journal of the Transportation Research
+    Board'
+  date: '2024-03-29'
+  link: https://doi.org/g9fs4f
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/03611981241234920
+  title: 'Measurement and Modeling of Thermo-Hydro-Mechanical Behaviors of Frozen
+    Clays: Frost Susceptibility and Compressibility'
+  authors:
+  - Weiling Cai
+  - Cheng Zhu
+  - Wade Lein
+  publisher: 'Transportation Research Record: Journal of the Transportation Research
+    Board'
+  date: '2024-03-14'
+  link: https://doi.org/g9fs4g
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2023JF007573
+  title: "Enhancing Soil Resilience to Climatic Wetting\u2010Drying Cycles Through\
+    \ a Bio\u2010Mediated Approach"
+  authors:
+  - "Chao\u2010Sheng Tang"
+  - Bo Liu
+  - Farshid Vahedifard
+  - "Ning\u2010Jun Jiang"
+  - Cheng Zhu
+  - "Zheng\u2010Tao Shen"
+  - "Xiao\u2010Hua Pan"
+  - Qing Cheng
+  - Bin Shi
+  publisher: 'Journal of Geophysical Research: Earth Surface'
+  date: '2024-05-01'
+  link: https://doi.org/g9fs4h
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1061/JGGEFK.GTENG-11610
+  title: "Constitutive Model for Thermo\u2013Hydro\u2013Mechanical Behaviors of Saturated\
+    \ Partially Frozen Cohesionless Soils: A Theoretical Pore-Scale Study"
+  authors:
+  - Weiling Cai
+  - Cheng Zhu
+  publisher: Journal of Geotechnical and Geoenvironmental Engineering
+  date: '2024-04-01'
+  link: https://doi.org/gtx7q6
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bgtech.2023.100049
+  title: Desiccation cracking remediation through enzyme induced calcite precipitation
+    in fine-grained soils under wetting drying cycles
+  authors:
+  - Kaniz Roksana
+  - Shaini Aluthgun Hewage
+  - Melissa Montalbo Lomboy
+  - Chaosheng Tang
+  - Wei Xue
+  - Cheng Zhu
+  publisher: Biogeotechnics
+  date: '2023-12-01'
+  link: https://doi.org/g9fs4j
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18260/1-2--45119
+  title: Enhancing Geotechnical Engineering Education Based on Multiphysics Enriched
+    Mixed Reality Game
+  authors:
+  - Chenchen Huang
+  - Weiling Cai
+  - LuoBin Cui
+  - Cheng Zhu
+  - Ying Tang
+  publisher: '2023 Fall Mid Atlantic Conference: Meeting our students where they are
+    and getting them where they need to be Proceedings'
+  date: ''
+  link: https://doi.org/g9fs4k
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/03611981231160176
+  title: "Evaluation of Cracking in Biochar-Amended Clayey Soil Under Freeze\u2013\
+    Thaw Cycles"
+  authors:
+  - Shaini Aluthgun Hewage
+  - Kaniz Roksana
+  - Chao Sheng Tang
+  - Zhuang Zhuo
+  - Cheng Zhu
+  publisher: 'Transportation Research Record: Journal of the Transportation Research
+    Board'
+  date: '2023-04-08'
+  link: https://doi.org/g9fs4m
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18260/1-2--42536
+  title: 'Board 172: Redefining the Role of Women in Engineering through SWE-Led Middle
+    School Outreach Program (Work in Progress)'
+  authors:
+  - Sarah Bauer
+  - Cheng Zhu
+  - Courtney Lemasney
+  - Amanda Yannarella
+  publisher: 2023 ASEE Annual Conference &amp; Exposition Proceedings
+  date: ''
+  link: https://doi.org/g9fs4n
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18260/1-2--42627
+  title: 'Board 211: An Educational Game Using Multiphysics Enriched Mixed Reality
+    for Integrated Geotechnical Engineering Education'
+  authors:
+  - Weiling Cai
+  - Chenchen Huang
+  - Cheng Zhu
+  - LuoBin Cui
+  publisher: 2023 ASEE Annual Conference &amp; Exposition Proceedings
+  date: ''
+  link: https://doi.org/g9fs4p
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00603-022-03027-y
+  title: "Investigating Mechanical Behaviors of Rocks Under Freeze\u2013Thaw Cycles\
+    \ Using Discrete Element Method"
+  authors:
+  - Chenchen Huang
+  - Cheng Zhu
+  - Yifei Ma
+  - Shaini Aluthgun Hewage
+  publisher: Rock Mechanics and Rock Engineering
+  date: '2022-08-31'
+  link: https://doi.org/gr6m9w
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/fractalfract6100570
+  title: Randomly Generating the 3D Mesostructure of Soil Rock Mixtures Based on the
+    Full In Situ Digital Image Processed Information
+  authors:
+  - Zhengsheng Li
+  - Haiyang Yi
+  - Cheng Zhu
+  - Zhuang Zhuo
+  - Guoshuan Liu
+  publisher: Fractal and Fractional
+  date: '2022-10-07'
+  link: https://doi.org/g9fs4q
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1061/JPEODX.0000346
+  title: Investigation of Thermally and Mechanically Balanced Structural Design of
+    Insulated Pavements for Cold Region Applications
+  authors:
+  - Zhuang Zhuo
+  - Ayman Ali
+  - Cheng Zhu
+  - Yusuf Mehta
+  - Wade Lein
+  - Christopher DeCarlo
+  - Zhaoxing Xie
+  publisher: 'Journal of Transportation Engineering, Part B: Pavements'
+  date: '2022-06-01'
+  link: https://doi.org/grwjxh
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10064-022-02631-0
+  title: 'Desiccation cracking in clay-bottom ash mixtures: insights from crack image
+    analysis and digital image correlation'
+  authors:
+  - Rui Liu
+  - Mark Vail
+  - Behrad Koohbor
+  - Cheng Zhu
+  - Chao-Sheng Tang
+  - Hao Xu
+  - Xiang-Chao Shi
+  publisher: Bulletin of Engineering Geology and the Environment
+  date: '2022-03-09'
+  link: https://doi.org/g9fs4r
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18260/1-2--40059
+  title: Mixed Reality Game for Active Geotechnical Engineering Learning
+  authors:
+  - Ying Tang
+  - Cheng Zhu
+  - Ryan Hare
+  - Tyler Ziesse
+  - Conor Peterson
+  - Chenchen Huang
+  publisher: 2022 Spring ASEE Middle Atlantic Section Conference Proceedings
+  date: ''
+  link: https://doi.org/g9fs4s
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2021WR030916
+  title: Investigating Soil Desiccation Cracking Using an Infrared Thermal Imaging
+    Technique
+  authors:
+  - Hao Zeng
+  - "Chao\u2010Sheng Tang"
+  - Cheng Zhu
+  - Qing Cheng
+  - "Zong\u2010ze Lin"
+  - Bin Shi
+  publisher: Water Resources Research
+  date: '2021-12-29'
+  link: https://doi.org/gnx5d8
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/s21186097
+  title: Three-Dimensional Microscopic Image Reconstruction Based on Structured Light
+    Illumination
+  authors:
+  - Taichu Shi
+  - Yang Qi
+  - Cheng Zhu
+  - Ying Tang
+  - Ben Wu
+  publisher: Sensors
+  date: '2021-09-11'
+  link: https://doi.org/gp4vpm
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1029/2020WR029434
+  title: "Potential Drought Mitigation Through Microbial Induced Calcite Precipitation\u2010\
+    MICP"
+  authors:
+  - Bo Liu
+  - "Chao\u2010Sheng Tang"
+  - "Xiao\u2010Hua Pan"
+  - Cheng Zhu
+  - "Yao\u2010Jia Cheng"
+  - "Jin\u2010Jian Xu"
+  - Bin Shi
+  publisher: Water Resources Research
+  date: '2021-09-01'
+  link: https://doi.org/gnm3kk
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s40948-021-00259-0
+  title: Numerical analysis of injection-induced fault reactivation using hydro-mechanical
+    coupled finite element model with cohesive zone elements
+  authors:
+  - Danilo Zeppilli
+  - Amade Pouya
+  - Cheng Zhu
+  - Xiang-Chao Shi
+  - Hao Xu
+  publisher: Geomechanics and Geophysics for Geo-Energy and Geo-Resources
+  date: '2021-05-31'
+  link: https://doi.org/gj9x9s
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18260/1-2--36971
+  title: Development of Innovative, Adaptable Video Learning Modules for the Civil
+    Engineering Classroom
+  authors:
+  - Sarah Bauer
+  - Cheng Zhu
+  - Gilson Lomboy
+  - Mohammad Jalayer
+  publisher: 2021 ASEE Virtual Annual Conference Content Access Proceedings
+  date: ''
+  link: https://doi.org/g9fs4t
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compgeo.2020.103817
+  title: Quantification and characterizing of soil microstructure features by image
+    processing technique
+  authors:
+  - Chao-Sheng Tang
+  - Luan Lin
+  - Qing Cheng
+  - Cheng Zhu
+  - Dong-Wei Wang
+  - Zhu-Yuan Lin
+  - Bin Shi
+  publisher: Computers and Geotechnics
+  date: '2020-12-01'
+  link: https://doi.org/g9fs4v
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18260/1-2--34194
+  title: Assessment of the Impact of Civil Engineering Design Problems for Promoting
+    Ethical Decisions
+  authors:
+  - Jagadish Torlapati
+  - Sarah Bauer
+  - Cheng Zhu
+  publisher: 2020 ASEE Virtual Annual Conference Content Access Proceedings
+  date: ''
+  link: https://doi.org/g9fs4w
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/en13092136
+  title: Effects of Cyclic Heating and Water Cooling on the Physical Characteristics
+    of Granite
+  authors:
+  - Xiangchao Shi
+  - Leiyu Gao
+  - Jie Wu
+  - Cheng Zhu
+  - Shuai Chen
+  - Xiao Zhuo
+  publisher: Energies
+  date: '2020-04-29'
+  link: https://doi.org/g9fs4x
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.enggeo.2019.105418
+  title: Effects of microstructure on desiccation cracking of a compacted soil
+  authors:
+  - Qing Cheng
+  - Chao-Sheng Tang
+  - Hao Zeng
+  - Cheng Zhu
+  - Ni An
+  - Bin Shi
+  publisher: Engineering Geology
+  date: '2020-02-01'
+  link: https://doi.org/gnm3gr
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1061/9780784482810.068
+  title: Enriching the Geotechnical Engineering Classroom through Novel Multidisciplinary
+    Examples
+  authors:
+  - Gabrielle Howell
+  - Elana Amir
+  - Victoria Barry
+  - Abigail Goger
+  - Christopher Haugland
+  - William Reichard
+  - Mark Vail
+  - Cheng Zhu
+  publisher: Geo-Congress 2020
+  date: '2020-02-21'
+  link: https://doi.org/g9fs4z
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12665-020-8840-9
+  title: 'Factors affecting the performance of microbial-induced carbonate precipitation
+    (MICP) treated soil: a review'
+  authors:
+  - Chao-Sheng Tang
+  - Li-yang Yin
+  - Ning-jun Jiang
+  - Cheng Zhu
+  - Hao Zeng
+  - Hao Li
+  - Bin Shi
+  publisher: Environmental Earth Sciences
+  date: '2020-02-20'
+  link: https://doi.org/gzjkbx
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1061/9780784482803.003
+  title: Hydromechanical Coupled Cohesive Zone Modeling of Induced Earthquakes under
+    Fluid Injections
+  authors:
+  - Danilo Zeppilli
+  - Cheng Zhu
+  - Amade Pouya
+  publisher: Geo-Congress 2020
+  date: '2020-02-21'
+  link: https://doi.org/g9fs42
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1115/1.4045735
+  title: 'Wellbore Stability in Layered Rocks: A Comparative Study of Strength Criteria'
+  authors:
+  - Xiangchao Shi
+  - Xiao Zhuo
+  - Yue Xiao
+  - Boyun Guo
+  - Cheng Zhu
+  - Jiaxue Li
+  publisher: Journal of Energy Resources Technology
+  date: '2020-01-07'
+  link: https://doi.org/gmhttr
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.enggeo.2019.105389
+  title: Bio-remediation of desiccation cracking in clayey soils through microbially
+    induced calcite precipitation (MICP)
+  authors:
+  - Bo Liu
+  - Cheng Zhu
+  - Chao-Sheng Tang
+  - Yue-Han Xie
+  - Li-Yang Yin
+  - Qing Cheng
+  - Bin Shi
+  publisher: Engineering Geology
+  date: '2020-01-01'
+  link: https://doi.org/gnm3gv
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/geosciences9090385
+  title: Desiccation Cracking Behavior of MICP-Treated Bentonite
+  authors:
+  - Mark Vail
+  - Cheng Zhu
+  - Chao-Sheng Tang
+  - Luke Anderson
+  - Michael Moroski
+  - Melissa Tabada Montalbo-Lomboy
+  publisher: Geosciences
+  date: '2019-09-02'
+  link: https://doi.org/g9fs43
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00542-019-04636-4
+  title: Evaluation of porous polydimethylsiloxane/carbon nanotubes (PDMS/CNTs) nanocomposites
+    as piezoresistive sensor materials
+  authors:
+  - Taissa R. Michel
+  - Michael J. Capasso
+  - Muhammet E. Cavusoglu
+  - Jeremy Decker
+  - Danilo Zeppilli
+  - Cheng Zhu
+  - Smitesh Bakrania
+  - Jennifer A. Kadlowec
+  - Wei Xue
+  publisher: Microsystem Technologies
+  date: '2019-09-21'
+  link: https://doi.org/g9fs44
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.enggeo.2019.04.014
+  title: Three-dimensional characterization of desiccation cracking behavior of compacted
+    clayey soil using X-ray computed tomography
+  authors:
+  - Chao-Sheng Tang
+  - Cheng Zhu
+  - Ting Leng
+  - Bin Shi
+  - Qing Cheng
+  - Hao Zeng
+  publisher: Engineering Geology
+  date: '2019-05-01'
+  link: https://doi.org/gh762d
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/1056789517747665
+  title: Self-consistent micromechanical approach for damage accommodation in rock-like
+    polycrystalline materials
+  authors:
+  - Amade Pouya
+  - Cheng Zhu
+  - "Chlo\xE9 Arson"
+  publisher: International Journal of Damage Mechanics
+  date: '2017-12-12'
+  link: https://doi.org/g9fs45
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.applthermaleng.2019.114380
+  title: Thermodynamic response of gas injection-and-withdrawal process in salt cavern
+    for underground gas storage
+  authors:
+  - Wenjing Li
+  - Cheng Zhu
+  - Juan Han
+  - Chunhe Yang
+  publisher: Applied Thermal Engineering
+  date: '2019-12-01'
+  link: https://doi.org/g9fs46
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.clay.2017.11.001
+  title: Characterizing drying-induced clayey soil desiccation cracking process using
+    electrical resistivity method
+  authors:
+  - Chao-Sheng Tang
+  - De-Yin Wang
+  - Cheng Zhu
+  - Qi-You Zhou
+  - Shi-Kang Xu
+  - Bin Shi
+  publisher: Applied Clay Science
+  date: '2018-02-01'
+  link: https://doi.org/gcz2bc
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1061/9780784480779.122
+  title: Analysis of Microstructure, Deformation, and Permeability of Salt/Sand Mixtures
+    during Creep
+  authors:
+  - X. Shen
+  - C. Zhu
+  - C. Arson
+  publisher: Poromechanics VI
+  date: '2017-07-06'
+  link: https://doi.org/g9fs47
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.enggeo.2017.02.030
+  title: Compression, swelling and rebound behavior of GMZ bentonite/additive mixture
+    under coupled hydro-mechanical condition
+  authors:
+  - Zhi-Guo Chen
+  - Chao-Sheng Tang
+  - Cheng Zhu
+  - Bin Shi
+  - Yue-Miao Liu
+  publisher: Engineering Geology
+  date: '2017-04-01'
+  link: https://doi.org/f958dx
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.mechmat.2016.09.004
+  title: Prediction of viscous cracking and cyclic fatigue of salt polycrystals using
+    a joint-enriched finite element model
+  authors:
+  - Cheng Zhu
+  - Amade Pouya
+  - "Chlo\xE9 Arson"
+  publisher: Mechanics of Materials
+  date: '2016-12-01'
+  link: https://doi.org/f9fvfd
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.mechmat.2015.10.009
+  title: "Micro\u2013macro approach of salt viscous fatigue under cyclic loading"
+  authors:
+  - Ahmad Pouya
+  - Cheng Zhu
+  - "Chlo\xE9 Arson"
+  publisher: Mechanics of Materials
+  date: '2016-02-01'
+  link: https://doi.org/f77wdp
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00603-015-0832-9
+  title: Micro-Macro Analysis and Phenomenological Modelling of Salt Viscous Damage
+    and Application to Salt Caverns
+  authors:
+  - Cheng Zhu
+  - Ahmad Pouya
+  - "Chlo\xE9 Arson"
+  publisher: Rock Mechanics and Rock Engineering
+  date: '2015-09-07'
+  link: https://doi.org/g9fs48
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1201/b18393-31
+  title: Operation, maintenance, and monitoring of large-diameter caverns in oil storage
+    facilities in domal salt
+  authors: []
+  publisher: Mechanical Behaviour of Salt VIII
+  date: '2015-05-13'
+  link: https://doi.org/g9fs49
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1201/b18393-7
+  title: Laboratory investigations of geotechnical properties of rock salt in Polish
+    salt deposits
+  authors: []
+  publisher: Mechanical Behaviour of Salt VIII
+  date: '2015-05-13'
+  link: https://doi.org/g9fs5b
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1201/b18393-39
+  title: Validation of a mineralogy-dependent constitutive model for potash
+  authors: []
+  publisher: Mechanical Behaviour of Salt VIII
+  date: '2015-05-13'
+  link: https://doi.org/g9fs5c
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10706-014-9797-9
+  title: A Model of Damage and Healing Coupling Halite Thermo-mechanical Behavior
+    to Microstructure Evolution
+  authors:
+  - C. Zhu
+  - C. Arson
+  publisher: Geotechnical and Geological Engineering
+  date: '2014-06-27'
+  link: https://doi.org/g9fs5d
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1061/9780784413272.269
+  title: Theoretical Bases of Thermomechanical Damage and DMT-Healing Model for Rock
+  authors:
+  - C. Zhu
+  - C. Arson
+  publisher: Geo-Congress 2014 Technical Papers
+  date: '2014-02-24'
+  link: https://doi.org/g9fs5f
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11440-013-0281-0
+  title: A thermo-mechanical damage model for rock stiffness during anisotropic crack
+    opening and closure
+  authors:
+  - Cheng Zhu
+  - "Chlo\xE9 Arson"
+  publisher: Acta Geotechnica
+  date: '2013-11-01'
+  link: https://doi.org/f6htb4
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1061/9780784412992.294
+  title: Modeling the Influence of Thermo-Mechanical Crack Opening and Closure on
+    Rock Stiffness
+  authors:
+  - C. Zhu
+  - C. Arson
+  publisher: Poromechanics V
+  date: '2013-06-18'
+  link: https://doi.org/g9fs5g
+  orcid: 0000-0001-5382-1003
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
   title: Open collaborative writing with Manubot
   authors:
