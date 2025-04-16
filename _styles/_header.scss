@@ -131,23 +131,16 @@ header:not([data-big]) {
 }
 
 header[data-big] {
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   padding: $big-padding 20px;
 
-  @if $sticky {
-    top: unset;
-  }
-
   .home {
     flex-direction: column;
-    flex-grow: 0;
+    align-items: center;
   }
 
   .logo {
     height: $logo-big;
-    flex-shrink: 0;
   }
 
   .title-text {
@@ -155,6 +148,11 @@ header[data-big] {
     align-items: center;
     text-align: center;
   }
+
+  // DON'T center everything anymore!
+  justify-content: initial; // override the centering
+  align-items: initial;
+}
 
   .title {
     font-size: var(--xxl);
