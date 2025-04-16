@@ -1,6 +1,6 @@
 ---
 title: Techniques
 nav: 
-  order: 3 
+  order: 1 
   parent: Research 
 ---
