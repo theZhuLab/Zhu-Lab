@@ -1,5 +1,6 @@
 ---
 title: Tools 
-parent: /projects/
-nav_ order: 2
+nav:
+  order: 2 
+  parent: projects
 ---
