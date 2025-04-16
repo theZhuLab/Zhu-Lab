@@ -1300,3 +1300,22 @@
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1126/sciadv.adl5815
+  title: Mechanotransduction governs CD40 function and underlies X-linked hyper-IgM
+    syndrome
+  authors:
+  - Hyun-Kyu Choi
+  - Stefano Travaglino
+  - "Matthias M\xFCnchhalfen"
+  - "Richard G\xF6rg"
+  - Zhe Zhong
+  - Jintian Lyu
+  - David M. Reyes-Aguilar
+  - "J\xFCrgen Wienands"
+  - Ankur Singh
+  - Cheng Zhu
+  publisher: Science Advances
+  date: '2024-11-15'
+  link: https://doi.org/g8t9bg
+  plugin: sources.py
+  file: sources.yaml
