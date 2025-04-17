@@ -195,9 +195,17 @@ header[data-big] {
   background-color: #f0f0f0;
 }
 
-
 header.background {
-  background-color: #fff9e6;     // light cream
+  background-color: #fff9e6;
+  color: #001f3f !important;
+}
+
+header.background a {
+  color: #001f3f !important;
+}
+
+header.background a:hover {
+  color: #004080;
 }
 
 
