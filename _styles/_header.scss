@@ -208,6 +208,10 @@ header.background a:hover {
   color: #004080;
 }
 
-
+[data-page-index] header.background {
+  background-image: none !important;
+  background-color: #fff9e6 !important;
+  color: #001f3f;
+}
 
 
