@@ -180,6 +180,10 @@ header[data-big] .subtitle {
   background-color: #f0f0f0;
 }
 
+header.background {
+  background-color: #fff9e6;
+}
+
 --- --- footer {
   display: flex;
   justify-content: center;
