@@ -196,8 +196,19 @@ header[data-big] {
 }
 
 
-header.background {
-  background-color: #fff9e6; 
-} 
+der.background, footer.background {
+  background-color: #fff9e6;     // light cream
+  color: #001f3f;                // rich navy blue
+}
+
+header.background a,
+footer.background a {
+  color: #001f3f;
+}
+
+header.background a:hover,
+footer.background a:hover {
+  color: #004080;  // slightly brighter navy for hover
+}
 
 
