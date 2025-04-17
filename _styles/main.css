@@ -241,6 +241,15 @@ footer {
 
 footer.background {
   background-color: #fff9e6;
+  color: #001f3f !important;
+}
+
+footer.background a {
+  color: #001f3f !important;
+}
+
+footer.background a:hover {
+  color: #004080;
 }
 
 /*# sourceMappingURL=main.css.map */
