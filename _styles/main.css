@@ -180,19 +180,9 @@ header[data-big] .subtitle {
   background-color: #f0f0f0;
 }
 
-der.background, footer.background {
+header.background {
   background-color: #fff9e6;
   color: #001f3f;
-}
-
-header.background a,
-footer.background a {
-  color: #001f3f;
-}
-
-header.background a:hover,
-footer.background a:hover {
-  color: #004080;
 }
 
 --- --- footer {
@@ -241,19 +231,9 @@ footer {
   margin-top: 2rem;
 }
 
-der.background, footer.background {
+footer.background {
   background-color: #fff9e6;
   color: #001f3f;
-}
-
-header.background a,
-footer.background a {
-  color: #001f3f;
-}
-
-header.background a:hover,
-footer.background a:hover {
-  color: #004080;
 }
 
 /*# sourceMappingURL=main.css.map */
