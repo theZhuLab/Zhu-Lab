@@ -180,8 +180,19 @@ header[data-big] .subtitle {
   background-color: #f0f0f0;
 }
 
-header.background {
+der.background, footer.background {
   background-color: #fff9e6;
+  color: #001f3f;
+}
+
+header.background a,
+footer.background a {
+  color: #001f3f;
+}
+
+header.background a:hover,
+footer.background a:hover {
+  color: #004080;
 }
 
 --- --- footer {
