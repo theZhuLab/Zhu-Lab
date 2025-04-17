@@ -2,8 +2,8 @@
 title: Zhu Lab
 subtitle: 
 description: Welcome to the Zhu lab. We study single molecular adhesion with force spectroscopy for various cells and disease models. We pioneered in the discovery of force-prolonged bond lifetime, or the "catch bond," using the biomembrane force probe paired with mutation studies and molecular dynamics simulations.
-header: images/background.jpg
-footer: images/background.jpg
+#header: images/background.jpg
+#footer: images/background.jpg
 proofer: false
 
 # site social media and other links
