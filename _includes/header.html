@@ -50,9 +50,9 @@
     {% assign children = pages | where: "nav.parent", parent.title %}
     {% if children.size > 0 %}
       <div class="dropdown">
-        <a href="{{ parent.dir | relative_url | uri_escape }}" data-tooltip="{{ parent.nav.tooltip | xml_escape }}">
-          {{ parent.title }} ▼
-        </a>
+      <span class="nav-label" data-tooltip="{{ parent.nav.tooltip | xml_escape }}">
+  {{ parent.title }} ▼
+</span>
         <div class="dropdown-content">
           {% for child in children %}
             <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
