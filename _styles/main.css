@@ -220,10 +220,6 @@ section.background-alt,
   color: #001f3f !important;
 }
 
-[data-dark=false] .dropdown-content a {
-  color: #001f3f !important;
-}
-
 --- --- footer {
   display: flex;
   justify-content: center;
