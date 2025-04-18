@@ -106,6 +106,13 @@ nav > a:hover {
   color: var(--primary);
 }
 
+.nav-label {
+  color: var(--text);
+  cursor: default;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
 @media (max-width: 700px) {
   header:not([data-big]) {
     justify-content: flex-end;
