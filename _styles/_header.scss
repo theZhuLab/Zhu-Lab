@@ -110,6 +110,13 @@ nav > a:hover {
   color: var(--primary);
 }
 
+.nav-label {
+  color: var(--text);
+  cursor: default;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
 header:not([data-big]) {
   @media (max-width: $collapse) {
     justify-content: flex-end;
