@@ -225,6 +225,11 @@ section.background-alt,
   background-color: transparent !important;
 }
 
+nav .dropdown > a {
+  color: #001f3f !important;
+  background-color: transparent !important;
+}
+
 --- --- footer {
   display: flex;
   justify-content: center;
