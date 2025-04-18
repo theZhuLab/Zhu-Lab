@@ -221,4 +221,17 @@ section.background-alt,
   color: #001f3f !important;
 }
 
+.dropdown-content {
+  background-color: #fff9e6; // light cream
+  color: #001f3f; // navy text
+}
 
+.dropdown-content a {
+  color: #001f3f !important;
+  background-color: #fff9e6 !important;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+  color: #004080;
+}
