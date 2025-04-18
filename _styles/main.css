@@ -205,6 +205,21 @@ section.background-alt,
   color: #001f3f !important;
 }
 
+.dropdown-content {
+  background-color: #fff9e6;
+  color: #001f3f;
+}
+
+.dropdown-content a {
+  color: #001f3f !important;
+  background-color: #fff9e6 !important;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+  color: #004080;
+}
+
 --- --- footer {
   display: flex;
   justify-content: center;
