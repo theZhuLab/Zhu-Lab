@@ -23,15 +23,4 @@
   color: #001f3f;
 }
 
-section.background,
-section.background-alt,
-.card,
-.container,
-.section,
-[data-dark=false] .background,
-[data-dark=false] .background-alt {
-  background-color: #fff9e6 !important;
-  color: #001f3f !important;
-}
-
 /*# sourceMappingURL=background.css.map */
