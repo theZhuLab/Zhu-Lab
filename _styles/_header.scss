@@ -190,17 +190,21 @@ header[data-big] {
   display: block;
 }
 
+.dropdown-content {
+  background-color: #fff9e6; // light cream
+  color: #001f3f; // navy text
+}
+
 .dropdown-content a {
-  display: block;
-  padding: 8px 12px;
-  text-decoration: none;
-  color: black;
-  background-color: white;
+  color: #001f3f !important;
+  background-color: #fff9e6 !important;
 }
 
 .dropdown-content a:hover {
-  background-color: #f0f0f0;
+  background-color: #fef6dc;
+  color: #004080;
 }
+
 
 header.background {
   background-color: #fff9e6;
