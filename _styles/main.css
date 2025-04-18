@@ -175,21 +175,6 @@ header[data-big] .subtitle {
   display: block;
 }
 
-.dropdown-content {
-  background-color: #fff9e6;
-  color: #001f3f;
-}
-
-.dropdown-content a {
-  color: #001f3f !important;
-  background-color: #fff9e6 !important;
-}
-
-.dropdown-content a:hover {
-  background-color: #fef6dc;
-  color: #004080;
-}
-
 header.background {
   background-color: #fff9e6;
   color: #001f3f !important;
