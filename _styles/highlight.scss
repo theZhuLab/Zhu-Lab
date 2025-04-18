@@ -5,3 +5,16 @@ mark {
   background: #fff9e6;
   color: #001f3f;
 }
+
+.citation {
+  background-color: #ffffff !important;
+  color: #001f3f !important;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.citation.background,
+.citation.background-alt {
+  background-color: #ffffff !important;
+}
