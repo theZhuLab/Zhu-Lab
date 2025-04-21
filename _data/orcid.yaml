@@ -1,2 +1,4 @@
-- orcid: 0000-0002-1718-565X
-
+- orcid: 0000-0002-1718-565X #Dr. Zhu's
+# format:
+#- orcid: XXX          # Student ORCID
+#- require_orcid: XXX  # PI ORCID must be a co-author
