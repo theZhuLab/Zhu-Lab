@@ -37,13 +37,13 @@ def main(entry):
     # go through response structure and pull out ids e.g. doi:1234/56789
     for work in response:
          # skip if require_orcid is set and it's not listed as a contributor
-    if require_orcid:
-        contributors = get_safe(work, "work-summary", [])[0].get("contributors", {}).get("contributor", [])
-        contributor_orcids = [
-            get_safe(c, "contributor-orcid.path") for c in contributors
-        ]
-        if require_orcid not in contributor_orcids:
-            continue
+        if require_orcid:
+            contributors = get_safe(work, "work-summary", [])[0].get("contributors", {}).get("contributor", [])
+            contributor_orcids = [
+                get_safe(c, "contributor-orcid.path") for c in contributors
+            ]
+            if require_orcid not in contributor_orcids:
+                continue
         # get list of ids
         ids = []
         for summary in get_safe(work, "work-summary", []):
