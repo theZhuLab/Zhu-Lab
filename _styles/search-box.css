@@ -22,4 +22,9 @@
   border: none;
 }
 
+.search-input {
+  background-color: #ffffff !important; /* Sets background to white */
+  color: #001f3f !important; /* Sets text color to black */
+}
+
 /*# sourceMappingURL=search-box.css.map */
