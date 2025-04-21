@@ -1,10 +1,10 @@
-- id: "doi: 10.1126/sciadv.adl5815"
+- id: "doi:10.1371/journal.pcbi.1007128"
   type: paper
   description: >
     Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2023-15-11
-  image: "https://www.science.org/doi/full/10.1126/sciadv.adl5815"
+  date: 2020-12-04
+  image: "https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2"
   buttons:
     - type: manubot
       link: "https://greenelab.github.io/meta-review/"
@@ -13,6 +13,10 @@
       link: "https://github.com/greenelab/meta-review"
     - type: website
       link: "http://manubot.org/"
+  tags:
+    - "open science"
+    - "collaboration"
+  repo: "greenelab/meta-review
 
 - id: "doi:10.4049/jimmunol.206.Supp.25.08"
 
