@@ -20,9 +20,11 @@
   align-items: center;
   padding: 0;
   aspect-ratio: 1 / 1;
-  background: #ffffff; /* changed from none */
-  color: #001f3f;       /* navy or another readable color */
-  border: none;
+  background: #ffffff;
+  color: #001f3f;
+  border: 1px solid #ccc;      /* ← this is the new border */
+  border-radius: 4px;          /* ← optional: gives it a little roundness */
+  cursor: pointer;
 }
 .search-input {
   background-color: #ffffff !important; /* Sets background to white */
