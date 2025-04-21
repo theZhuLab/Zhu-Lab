@@ -11,7 +11,7 @@ Welcome to the Zhu lab at Georgia Tech. We study single molecular adhesion with 
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our goal is to understand how mechanical force influences enzyme-linked receptors, such as T cell receptors (TCRs) and B cell receptors (BCRs), to drive effective signal transduction.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+By using tools like biomolecular force probes and molecular tension probes, we study the mechanobiology of single-molecule ligand–receptor interactions and their downstream effects.
 
 {%
   include button.html
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the people behind the research. Our team brings together scientists at all levels who share a passion for exploring the mechanics of immune signaling and advancing biomedical discovery.
 
 {%
   include button.html
