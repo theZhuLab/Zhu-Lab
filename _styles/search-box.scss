@@ -20,7 +20,7 @@
   align-items: center;
   padding: 0;
   aspect-ratio: 1 / 1;
-  background: none;
-  color: #ffffff;
+  background: #ffffff; /* changed from none */
+  color: #001f3f;       /* navy or another readable color */
   border: none;
 }
