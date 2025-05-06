@@ -1,47 +1,35 @@
 - title: T Cell Mechanobiology
-  subtitle: a subtitle
+  #subtitle: a subtitle
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
+  #link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   #repo: greenelab/lab-website-template
-  tags:
-    - resource
+  
 
-- title: Mechanosensing Control #Mechanoregulation 
-  subtitle: a subtitle
+- title: Neuronal Mechanobiology 
+  #subtitle: a subtitle
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
+  #link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  #repo: greenelab/lab-website-template
+
 
 - title: Platelet Mechanobiology
-  subtitle: a subtitle
+  #subtitle: a subtitle
+  group: featured
   image: images/photo.jpg
-  link: https://github.com/
+  #link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+  #repo: greenelab/lab-website-template
 
 - title: B Cell Mechanobiology
-  subtitle: a subtitle
+  #subtitle: a subtitle
+  group: featured
   image: images/photo.jpg
-  link: https://github.com/
+  #link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+  #repo: greenelab/lab-website-template
 
-- title: Co-stimulation/ Inhibition
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+
