@@ -1,4 +1,14 @@
 - orcid: 0000-0002-1718-565X #Dr. Zhu's
+
+- orcid: 0009-0009-5761-8729          # Larissa
+- require_orcid: 0000-0002-1718-565X  # PI ORCID must be a co-author
+
+- orcid: 0000-0001-7753-8368       #Peiwen
+- require_orcid: 0000-0002-1718-565X 
+
+- orcid: 0009-0004-8345-1495 #Jiawei
+- require_orcid: 0000-0002-1718-565X 
+
 # format:
 #- orcid: XXX          # Student ORCID
 #- require_orcid: XXX  # PI ORCID must be a co-author
