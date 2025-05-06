@@ -9,3 +9,27 @@ main {
 @import "header"; 
 
 @import "footer"; 
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+}
