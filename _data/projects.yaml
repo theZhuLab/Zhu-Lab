@@ -17,7 +17,7 @@
 - title: B Cell Mechanobiology
   #subtitle: a subtitle
   group: featured
-  image: images/bcell.jpg
+  image: images/Bcell.jpg
   #link: https://github.com/
   description: Antibody class-switch in germinal-center B cells requires signaling induced by the interaction of the B cell CD40 receptor with its ligand, CD40L (CD154), presented on CD4+ T helper cells. Rare mutations to the CD40L protein affecting its expression, binding, or function, lead to dysregulation of B cell signaling and their inability to undergo antibody class-switch. We investigate the dys-mechanoregulation of CD40–CD40L interactions by (X-linked hyper IgM)X-HIgM mutations and their effects on B cell signaling.
   #repo: greenelab/lab-website-template
