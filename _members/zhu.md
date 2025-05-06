@@ -4,8 +4,8 @@ image: images/Zhu.jpg
 role: principal-investigator
 affiliation: Georgia Institute of Technology
 links:
-  orcid:  0000-0002-1718-565X
   email: cheng.zhu@bme.gatech.edu
+  orcid: 0000-0002-1718-565X
   google-scholar: _tPv2wEAAAAJ
 ---
 
