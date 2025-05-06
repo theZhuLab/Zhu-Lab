@@ -1,4 +1,8 @@
 ---
+layout: default
+title: Home
+header: /images/banner.jpg
+header-dark: true
 ---
 
 # Welcome!
