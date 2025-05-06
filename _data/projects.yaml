@@ -1,7 +1,7 @@
 - title: T Cell Mechanobiology
   #subtitle: a subtitle
   group: featured
-  image: images/photo.jpg
+  image: images/tcell.png
   #link: https://github.com/
   description: Mechanical forces on immunoreceptors emerge during migration or adhesion to cells or the ECM, and during formation of the immunological synapse. Forces exerted on specific immunoreceptor–ligand bonds potentially induce mechanotransduction. Lymphocytes use force to amplify antigen discrimination and respond to changes in substrate stiffness.
   #repo: greenelab/lab-website-template
@@ -9,7 +9,7 @@
 - title: Platelet Mechanobiology
   #subtitle: a subtitle
   group: featured
-  image: images/photo.jpg
+  image: images/platelet.png
   #link: https://github.com/
   description: Mechanical stimuli are crucial in platelet activation in flowing blood. How platelets interpret mechanical forces along with biochemical stimuli is unclear. We have so far identified intracellular components that regulate platelet behavior in disturbed flow, which is predominantly mediated by integrins that exhibit distinct affinity and conformatio
   #repo: greenelab/lab-website-template
@@ -17,7 +17,7 @@
 - title: B Cell Mechanobiology
   #subtitle: a subtitle
   group: featured
-  image: images/photo.jpg
+  image: images/b cell.jpg
   #link: https://github.com/
   description: Antibody class-switch in germinal-center B cells requires signaling induced by the interaction of the B cell CD40 receptor with its ligand, CD40L (CD154), presented on CD4+ T helper cells. Rare mutations to the CD40L protein affecting its expression, binding, or function, lead to dysregulation of B cell signaling and their inability to undergo antibody class-switch. We investigate the dys-mechanoregulation of CD40–CD40L interactions by (X-linked hyper IgM)X-HIgM mutations and their effects on B cell signaling.
   #repo: greenelab/lab-website-template
