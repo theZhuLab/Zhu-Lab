@@ -45,31 +45,5 @@
     max-width: 400px;
   }
 }
-.feature {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  margin: 4rem 0;
-}
-.feature.flip {
-  flex-direction: row-reverse;
-}
-.feature .text {
-  flex: 1 1 400px;
-  max-width: 600px;
-  padding: 1rem;
-}
-.feature .image {
-  flex: 1 1 400px;
-  max-width: 600px;
-  padding: 1rem;
-}
-.feature .image img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
 
 /*# sourceMappingURL=feature.css.map */
