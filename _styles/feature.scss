@@ -52,33 +52,3 @@ $wrap: 800px;
   }
 }
 
-.feature {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  margin: 4rem 0;
-
-  &.flip {
-    flex-direction: row-reverse;
-  }
-
-  .text {
-    flex: 1 1 400px;
-    max-width: 600px;
-    padding: 1rem;
-  }
-
-  .image {
-    flex: 1 1 400px;
-    max-width: 600px;
-    padding: 1rem;
-
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-  }
-}
