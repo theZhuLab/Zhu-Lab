@@ -10,8 +10,10 @@
   </body>
 </html>
 
-{% if page.url == "/" %}
-  <section data-size="full">
-    <img src="{{ site.baseurl }}/images/banner.jpg" alt="Banner Image" style="width: 100%; height: auto;" />
-  </section>
-{% endif %}
+<section data-size="full" class="hero-banner">
+  <div class="hero-overlay">
+    <h1>Welcome</h1>
+  </div>
+  <img src="{{ site.baseurl }}/assets/images/banner.jpg" alt="Banner Image" />
+</section>
+
