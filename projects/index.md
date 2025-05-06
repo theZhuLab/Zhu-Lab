@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The cells we are studying includes those in the immune system (e.g., T and B lymphocytes), cardiovascular system (e.g., platelets and endothelial cells), and the neuronal system (e.g., neurons and astrocytes). Cell surface receptors we are studying includes adhesion receptors (e.g., selectins and integrins), immunoreceptors (e.g., TCR, BCR, PD-1, CD40, etc.), and synaptic receptors (e.g., glutamate delta receptor and neuraxin).
 
 {% include tags.html tags="publication, resource, website" %}
 
