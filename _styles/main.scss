@@ -33,3 +33,28 @@ main {
     text-align: center;
   }
 }
+
+.hero-local {
+  background-image: url('/images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hero-local::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); // dark overlay for contrast
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
