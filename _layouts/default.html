@@ -9,3 +9,9 @@
     {% include footer.html %}
   </body>
 </html>
+
+{% if page.url == "/" %}
+  <section data-size="full">
+    <img src="{{ site.baseurl }}/images/banner.jpg" alt="Banner Image" style="width: 100%; height: auto;" />
+  </section>
+{% endif %}
