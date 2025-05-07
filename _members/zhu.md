@@ -2,7 +2,7 @@
 name: Cheng Zhu
 image: images/Zhu.jpg
 role: principal-investigator
-affiliation: Georgia Institute of Technology
+#affiliation: Georgia Institute of Technology
 links:
   email: cheng.zhu@bme.gatech.edu
   orcid: 0000-0002-1718-565X
