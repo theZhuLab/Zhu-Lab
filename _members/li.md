@@ -1,6 +1,6 @@
 ---
 name: Menglan Li 
-image: images/menglan-li.jpg
+image: images/menglan-li.jpeg
 description: Post-doctoral Research
 #role: programmer
 links:
