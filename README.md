@@ -5,6 +5,6 @@
 
   # theZhuLab's Website
 
-  Visit **[zhulabgt.com](http://zhulabgt.com)** 🚀
+  Visit **[thezhulab.github.io/Zhu-Lab](https://thezhulab.github.io/Zhu-Lab)** 🚀
 
   #_Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
