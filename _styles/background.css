@@ -30,8 +30,36 @@ section.background-alt,
 .section,
 [data-dark=false] .background,
 [data-dark=false] .background-alt {
-  background-color: #fff9e6 !important;
+  background-color: #ffffff !important;
   color: #001f3f !important;
+}
+
+/* Style for hero banner on homepage */
+.hero-local {
+  position: relative;
+  background-image: url("/Zhu-lab/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #001f3f;
+  padding: 4rem 2rem;
+}
+
+/* Optional: darken the background with overlay for better contrast */
+.hero-local::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  background: transparent;
 }
 
 /*# sourceMappingURL=background.css.map */
