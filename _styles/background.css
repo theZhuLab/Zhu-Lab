@@ -34,18 +34,20 @@ section.background-alt,
   color: #001f3f !important;
 }
 
-/* Style for hero banner on homepage */
 .hero-local {
   position: relative;
+  width: 100%;
+  height: 400px;
   background-image: url("/images/banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #001f3f;
-  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-/* Optional: darken the background with overlay for better contrast */
 .hero-local::before {
   content: "";
   position: absolute;
@@ -58,8 +60,8 @@ section.background-alt,
   position: relative;
   z-index: 1;
   max-width: 800px;
-  margin: 0 auto;
-  background: transparent;
+  padding: 1rem;
+  color: #001f3f;
 }
 
 /*# sourceMappingURL=background.css.map */
