@@ -5,11 +5,6 @@ title: Home
 
 # Welcome!
 
-<section class="hero-local">
-  <div class="hero-content">
-    <p>Welcome to the Zhu lab at Georgia Tech. We study single molecular adhesion with force spectroscopy for various cells and disease models. We pioneered in the discovery of force-prolonged bond lifetime, or the "catch bond," using the biomembrane force probe paired with mutation studies and molecular dynamics simulations.</p>
-  </div>
-</section>
 
 {% include section.html %}
 
