@@ -37,7 +37,7 @@ section.background-alt,
 /* Style for hero banner on homepage */
 .hero-local {
   position: relative;
-  background-image: url("/Zhu-lab/images/banner.jpg");
+  background-image: url("/images/banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
