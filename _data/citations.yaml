@@ -1218,12 +1218,13 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1023/A:1006614232388
-  title: ''
+  title: "A modified Boyden chamber assay for tumor cell transendothelial migration\
+    \ in\_vitro"
   authors:
   - Yu-Hua Li
   - Cheng Zhu
   publisher: Clinical &amp; Experimental Metastasis
-  date: '1999-01-01'
+  date: '1999-07-01'
   link: https://doi.org/fw6tdp
   orcid: 0000-0002-1718-565X
   plugin: orcid.py
