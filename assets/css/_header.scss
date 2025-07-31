@@ -51,20 +51,15 @@ main {
   text-align: center;
 }
 
-.hero-local::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.6); /* optional overlay */
-  z-index: 0;
-}
-
 .hero-content {
   position: relative;
   z-index: 1;
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 1rem;
-  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5); /* makes white text readable */
 }
 
