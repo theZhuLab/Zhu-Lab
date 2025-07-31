@@ -42,42 +42,61 @@ header .title-text {
   font-weight: bold;
 }
 
-.nav-toggle {
-  display: none;
-}
+   <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-/* First, hide the actual checkbox (the switch inside the wall) */
-.nav-toggle {
-    display: none;
-}
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
 
-/* Then, by default, hide your navigation menu */
-header nav { /* Or just 'nav' if it applies to your menu */
-    display: none; /* This makes it invisible */
-    /* You might also use properties like:
-       max-height: 0; overflow: hidden; transition: all 0.3s ease-in-out;
-       to make it slide in/out */
-}
+        /* The "magic" to make the hamburger toggle work */
+        /* This hides the checkbox, but keeps it functional */
+        .nav-toggle {
+            display: none;
+        }
 
-/* This is the magic part! */
-/* When the nav-toggle checkbox IS CHECKED, find the label RIGHT NEXT to it, */
-/* AND THEN find the <nav> element that comes AFTER that label, */
-/* and make the <nav> visible! */
-.nav-toggle:checked ~ nav { /* The '~' means "any sibling that comes after" */
-    display: block; /* Make it visible */
-    /* If you used max-height for hiding, you'd set max-height: 500px; or similar */
-}
+        /* This hides the main navigation menu by default on small screens */
+        .header-nav {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+        }
 
-/* Style your hamburger icon (☰) so it looks clickable */
-.nav-toggle-label {
-    cursor: pointer; /* Makes your mouse cursor change to a hand when hovering */
-    font-size: 2em; /* Make the hamburger bigger */
-    padding: 10px;
-    /* You might want to position this to the side of your header */
-    position: absolute;
-    right: 20px;
-    top: 20px;
-}
+        /* This shows the menu when the checkbox is checked */
+        .nav-toggle:checked ~ .header-nav {
+            display: flex;
+        }
 
-/* You'll also likely need CSS to make your menu look good when it's open, */
-/* and to make it responsive for small screens */
+        /* This hides the dropdown content by default */
+        .dropdown-content {
+            display: none;
+            flex-direction: column;
+            padding-left: 1rem;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* This shows the dropdown content when the dropdown checkbox is checked */
+        .dropdown-toggle:checked ~ .dropdown-content {
+            display: flex;
+        }
+
+        /* For desktop, we hide the hamburger icon and show the full menu */
+        @media (min-width: 768px) {
+            .nav-toggle-label {
+                display: none;
+            }
+            .header-nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+            .header-nav a, .header-nav .dropdown {
+                margin-left: 1.5rem;
+            }
+            /* On desktop, use hover for dropdowns */
+            .dropdown:hover .dropdown-content {
+                display: flex;
+            }
+        }
+    </style>
