@@ -46,32 +46,38 @@ header .title-text {
   display: none;
 }
 
-nav {
-  display: flex;
-  gap: 1rem;
-}
-
-@media (max-width: 768px) {
-  .nav-toggle {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: #001f3f;
-  }
-
-  nav {
+/* First, hide the actual checkbox (the switch inside the wall) */
+.nav-toggle {
     display: none;
-    flex-direction: column;
-    background-color: #fff9e6;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 1rem;
-  }
-
-  .nav-toggle:checked + nav {
-    display: flex;
-  }
 }
+
+/* Then, by default, hide your navigation menu */
+header nav { /* Or just 'nav' if it applies to your menu */
+    display: none; /* This makes it invisible */
+    /* You might also use properties like:
+       max-height: 0; overflow: hidden; transition: all 0.3s ease-in-out;
+       to make it slide in/out */
+}
+
+/* This is the magic part! */
+/* When the nav-toggle checkbox IS CHECKED, find the label RIGHT NEXT to it, */
+/* AND THEN find the <nav> element that comes AFTER that label, */
+/* and make the <nav> visible! */
+.nav-toggle:checked ~ nav { /* The '~' means "any sibling that comes after" */
+    display: block; /* Make it visible */
+    /* If you used max-height for hiding, you'd set max-height: 500px; or similar */
+}
+
+/* Style your hamburger icon (☰) so it looks clickable */
+.nav-toggle-label {
+    cursor: pointer; /* Makes your mouse cursor change to a hand when hovering */
+    font-size: 2em; /* Make the hamburger bigger */
+    padding: 10px;
+    /* You might want to position this to the side of your header */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* You'll also likely need CSS to make your menu look good when it's open, */
+/* and to make it responsive for small screens */
