@@ -12,14 +12,6 @@
   text-align: center;
 }
 
-.hero-local::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.4);
-  z-index: 0;
-}
-
 .hero-content {
   position: relative;
   z-index: 1;
