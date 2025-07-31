@@ -44,21 +44,17 @@
     {% endif %}
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+ <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="toggle nav">
 
- {% assign pages = site.pages | where_exp: "page", "page.nav" %}
+<label for="nav-toggle" class="nav-toggle-label">☰</label>
 
-  
 <nav>
-  {% assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" %}
-  {% assign parents = pages | where_exp: "page", "page.nav.parent == nil" %}
+  {% assign parents = site.pages | where_exp: "p", "p.nav and p.nav.parent == nil" | sort: "nav.order" %}
   {% for parent in parents %}
-    {% assign children = pages | where: "nav.parent", parent.title %}
+    {% assign children = site.pages | where: "nav.parent", parent.title %}
     {% if children.size > 0 %}
       <div class="dropdown">
-      <span class="nav-label" data-tooltip="{{ parent.nav.tooltip | xml_escape }}">
-  {{ parent.title }} ▼
-</span>
+        <span class="nav-label">{{ parent.title }} ▼</span>
         <div class="dropdown-content">
           {% for child in children %}
             <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
@@ -66,9 +62,7 @@
         </div>
       </div>
     {% else %}
-      <a href="{{ parent.dir | relative_url | uri_escape }}" data-tooltip="{{ parent.nav.tooltip | xml_escape }}">
-        {{ parent.title }}
-      </a>
+      <a href="{{ parent.url | relative_url }}">{{ parent.title }}</a>
     {% endif %}
   {% endfor %}
 </nav>
