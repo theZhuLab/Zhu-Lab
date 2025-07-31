@@ -376,16 +376,13 @@
 
 
 
+
 <!--
-  This is a complete HTML document that combines your Jekyll/Liquid code
-  into a single, responsive navigation bar.
+  This is the updated HTML document with a background image in the header
+  and white text for the main title. The responsive navigation menu
+  from the previous version is still fully intact.
 
-  The Jekyll/Liquid logic is commented out to show the final HTML structure
-  it would produce. This lets you see exactly how the toggles and menus
-  are connected.
-
-  The styling uses Tailwind CSS for general layout and custom CSS for
-  the specific hamburger and dropdown toggle logic.
+  The CSS for the header is added inside the <style> block.
 -->
 
 
@@ -402,6 +399,29 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f3f4f6;
+        }
+
+        /* NEW CSS FOR THE HEADER IMAGE AND TEXT */
+        .hero-local {
+            background-image: url('images/banner.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1; /* Ensure this is above other elements but below the header */
+        }
+        .hero-content {
+            text-align: center;
+            padding: 2rem;
+        }
+        .hero-content h1 {
+            color: #ffffff;
+            font-size: 4rem; /* Making the title bigger */
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds a shadow for readability */
         }
 
         /* The "magic" to make the hamburger toggle work */
@@ -452,16 +472,28 @@
             .dropdown:hover .dropdown-content {
                 display: flex;
             }
+            .dropdown-toggle {
+                pointer-events: none; /* Disable checkbox on desktop for hover to work */
+            }
+            .dropdown-toggle + .nav-label {
+                cursor: pointer;
+            }
+            .dropdown-toggle:checked + .nav-label ~ .dropdown-content {
+                display: none;
+            }
+            .dropdown:hover .dropdown-content {
+                display: flex;
+            }
         }
     </style>
 
 
 
-    <!-- Hero section with the lab title -->
-    <section class="bg-gray-100 p-12 md:p-20 text-center shadow-lg rounded-b-3xl">
-        <div class="container mx-auto">
-            <h1 class="text-4xl md:text-6xl font-bold text-gray-900">Zhu Lab</h1>
-        </div>
+    <!-- Hero section with the lab title and background image -->
+    <section class="hero-local">
+      <div class="hero-content">
+        <h1> Zhu Lab </h1>
+      </div>
     </section>
 
     <!--
@@ -491,9 +523,25 @@
                 <a href="/Zhu-Lab/research/" class="text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600">
                     Research
                 </a>
-                <a href="/Zhu-Lab/team/" class="text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600">
-                    Team
-                </a>
+                
+                <!-- Team dropdown -->
+                <div class="dropdown relative">
+                    <input type="checkbox" class="dropdown-toggle absolute opacity-0 z-10" id="dropdown-toggle-team">
+                    <label for="dropdown-toggle-team" class="nav-label text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none cursor-pointer transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 flex items-center justify-between md:justify-start">
+                        Team
+                        <span class="ml-2 text-sm">▼</span>
+                    </label>
+                    <div class="dropdown-content mt-2 md:absolute md:top-full md:left-0 bg-white md:bg-white rounded-lg shadow-lg md:min-w-[12rem] md:p-2 md:border md:border-gray-200">
+                        <a href="/Zhu-Lab/team/current/" class="block p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-100 rounded-md">
+                            Current Members
+                        </a>
+                        <a href="/Zhu-Lab/team/alumni/" class="block p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-100 rounded-md">
+                            Alumni
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Static links -->
                 <a href="/Zhu-Lab/publications/" class="text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600">
                     Publications
                 </a>
@@ -502,27 +550,21 @@
                 </a>
 
                 <!--
-                  This is the Jekyll/Liquid dropdown logic, now integrated
-                  into the main navigation menu. The 'parents' and 'children'
-                  are just example placeholders for what your Jekyll build would produce.
+                  This is the original Jekyll/Liquid dropdown logic.
+                  It's now a template for you to use with your own dropdowns.
                 -->
-                <!-- Example of what the Liquid `for parent` loop would create -->
                 <div class="dropdown relative">
-                    <!-- The checkbox to toggle the dropdown (hidden, but functional) -->
-                    <input type="checkbox" class="dropdown-toggle absolute opacity-0 z-10" id="dropdown-toggle-1">
-                    <!-- The label acts as the button to click -->
-                    <label for="dropdown-toggle-1" class="nav-label text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none cursor-pointer transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 flex items-center justify-between md:justify-start">
+                    <input type="checkbox" class="dropdown-toggle absolute opacity-0 z-10" id="dropdown-toggle-pages">
+                    <label for="dropdown-toggle-pages" class="nav-label text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none cursor-pointer transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 flex items-center justify-between md:justify-start">
                         <!-- 'parent.title' would go here -->
-                        Dropdown Menu
+                        Dropdown Example
                         <span class="ml-2 text-sm">▼</span>
                     </label>
-                    <!-- The dropdown content -->
                     <div class="dropdown-content mt-2 md:absolute md:top-full md:left-0 bg-white md:bg-white rounded-lg shadow-lg md:min-w-[12rem] md:p-2 md:border md:border-gray-200">
-                        <!-- Example of what the Liquid `for child` loop would create -->
-                        <a href="#" class="block p-2 md:p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-100 rounded-md">
+                        <a href="#" class="block p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-100 rounded-md">
                             Sub-page One
                         </a>
-                        <a href="#" class="block p-2 md:p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-100 rounded-md">
+                        <a href="#" class="block p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-100 rounded-md">
                             Sub-page Two
                         </a>
                     </div>
