@@ -376,79 +376,162 @@
 
 
 
+<!--
+  This is a complete HTML document that combines your Jekyll/Liquid code
+  into a single, responsive navigation bar.
 
-<section class="hero-local">
-  <div class="hero-content">
-    <h1> Zhu Lab
-  </h1>
-</div>
-</section>
+  The Jekyll/Liquid logic is commented out to show the final HTML structure
+  it would produce. This lets you see exactly how the toggles and menus
+  are connected.
 
-<header>
-  <a href="/Zhu-Lab/" class="title-text">
-    Zhu Lab
-  </a>
+  The styling uses Tailwind CSS for general layout and custom CSS for
+  the specific hamburger and dropdown toggle logic.
+-->
 
-  <input type="checkbox" class="nav-toggle" id="nav-toggle">
-  <label for="nav-toggle" class="nav-toggle-label">☰</label>
 
-  <nav>
-    <a href="/Zhu-Lab/research/">Research</a>
-    <a href="/Zhu-Lab/team/">Team</a>
-    <a href="/Zhu-Lab/publications/">Publications</a>
-    <a href="/Zhu-Lab/contact/">Contact</a>
-  </nav>
-</header>
 
-<nav>
-  
-  
-    
-    
-      <a href="/Zhu-Lab/research/">Research</a>
-    
-  
-    
-    
-      <div class="dropdown">
-        <span class="nav-label">Projects ▼</span>
-        <div class="dropdown-content">
-          
-            <a href="/Zhu-Lab/projects/projects.html">Projects</a>
-          
-            <a href="/Zhu-Lab/projects/techniques.html">Techniques</a>
-          
-            <a href="/Zhu-Lab/projects/tools.html">Tools</a>
-          
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhu Lab</title>
+    <!-- Use Tailwind CSS for a clean, modern look -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        /* The "magic" to make the hamburger toggle work */
+        /* This hides the checkbox, but keeps it functional */
+        .nav-toggle {
+            display: none;
+        }
+
+        /* This hides the main navigation menu by default on small screens */
+        .header-nav {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        /* This shows the menu when the checkbox is checked */
+        .nav-toggle:checked ~ .header-nav {
+            display: flex;
+        }
+
+        /* This hides the dropdown content by default */
+        .dropdown-content {
+            display: none;
+            flex-direction: column;
+            padding-left: 1rem;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* This shows the dropdown content when the dropdown checkbox is checked */
+        .dropdown-toggle:checked ~ .dropdown-content {
+            display: flex;
+        }
+
+        /* For desktop, we hide the hamburger icon and show the full menu */
+        @media (min-width: 768px) {
+            .nav-toggle-label {
+                display: none;
+            }
+            .header-nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+            .header-nav a, .header-nav .dropdown {
+                margin-left: 1.5rem;
+            }
+            /* On desktop, use hover for dropdowns */
+            .dropdown:hover .dropdown-content {
+                display: flex;
+            }
+        }
+    </style>
+
+
+
+    <!-- Hero section with the lab title -->
+    <section class="bg-gray-100 p-12 md:p-20 text-center shadow-lg rounded-b-3xl">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-900">Zhu Lab</h1>
         </div>
-      </div>
-    
-  
-    
-    
-      <div class="dropdown">
-        <span class="nav-label">Team ▼</span>
-        <div class="dropdown-content">
-          
-            <a href="/Zhu-Lab/team/alumni.html">Alumni</a>
-          
-            <a href="/Zhu-Lab/team/current.html">Current members</a>
-          
+    </section>
+
+    <!--
+      This is the main header/navigation bar.
+      It uses flexbox to arrange items and is responsive.
+    -->
+    <header class="bg-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex items-center justify-between p-4 md:p-6">
+            <!-- Website Title/Logo -->
+            <a href="/Zhu-Lab/" class="title-text text-2xl md:text-3xl font-bold text-gray-800 transition-colors duration-200 hover:text-blue-600">
+                Zhu Lab
+            </a>
+
+            <!-- The Hamburger Toggle button (hidden on desktop) -->
+            <input type="checkbox" class="nav-toggle" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label block md:hidden text-3xl cursor-pointer">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <!--
+              This is the combined navigation menu.
+              On mobile, it's hidden by default and appears when the toggle is clicked.
+              On desktop, it's always visible and a horizontal row.
+            -->
+            <nav class="header-nav mt-4 md:mt-0 md:flex">
+                <!-- Static links -->
+                <a href="/Zhu-Lab/research/" class="text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600">
+                    Research
+                </a>
+                <a href="/Zhu-Lab/team/" class="text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600">
+                    Team
+                </a>
+                <a href="/Zhu-Lab/publications/" class="text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600">
+                    Publications
+                </a>
+                <a href="/Zhu-Lab/contact/" class="text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600">
+                    Contact
+                </a>
+
+                <!--
+                  This is the Jekyll/Liquid dropdown logic, now integrated
+                  into the main navigation menu. The 'parents' and 'children'
+                  are just example placeholders for what your Jekyll build would produce.
+                -->
+                <!-- Example of what the Liquid `for parent` loop would create -->
+                <div class="dropdown relative">
+                    <!-- The checkbox to toggle the dropdown (hidden, but functional) -->
+                    <input type="checkbox" class="dropdown-toggle absolute opacity-0 z-10" id="dropdown-toggle-1">
+                    <!-- The label acts as the button to click -->
+                    <label for="dropdown-toggle-1" class="nav-label text-lg font-medium p-2 md:p-0 rounded-lg md:rounded-none cursor-pointer transition-colors duration-200 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 flex items-center justify-between md:justify-start">
+                        <!-- 'parent.title' would go here -->
+                        Dropdown Menu
+                        <span class="ml-2 text-sm">▼</span>
+                    </label>
+                    <!-- The dropdown content -->
+                    <div class="dropdown-content mt-2 md:absolute md:top-full md:left-0 bg-white md:bg-white rounded-lg shadow-lg md:min-w-[12rem] md:p-2 md:border md:border-gray-200">
+                        <!-- Example of what the Liquid `for child` loop would create -->
+                        <a href="#" class="block p-2 md:p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-100 rounded-md">
+                            Sub-page One
+                        </a>
+                        <a href="#" class="block p-2 md:p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-100 rounded-md">
+                            Sub-page Two
+                        </a>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </div>
-    
-  
-    
-    
-      <a href="/Zhu-Lab/blog/">Blog</a>
-    
-  
-    
-    
-      <a href="/Zhu-Lab/contact/">Contact</a>
-    
-  
-</nav>
+    </header>
+
+
 
 
     <main>
