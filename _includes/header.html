@@ -7,11 +7,10 @@
 {% assign logo = svg | default: png | default: jpg | default: nil %}
 
 <!--
-  This is the final HTML document with a subtle hamburger toggle placed
-  directly in the top-right corner of the hero banner.
-
-  The navigation menu is a vertical list that appears when the toggle is clicked.
-  This version is optimized for a clean, minimalist look.
+  This is the updated HTML document.
+  The navigation now consists of a single hamburger toggle that
+  is visible on all screen sizes, including desktop.
+  Clicking it reveals a full-screen, vertical menu.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -40,37 +39,49 @@
             background-repeat: no-repeat;
             min-height: 400px;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             position: relative;
             z-index: 1;
         }
 
-        /* The toggle icon itself */
-        .nav-toggle-label {
-            position: absolute; /* Position it relative to the hero banner */
-            top: 2rem;
-            right: 2rem;
-            color: white; /* Make the icon white */
-            font-size: 2rem;
-            cursor: pointer;
-            z-index: 100;
-            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+        /* The title text in the banner */
+        .hero-content h1 {
+            color: #ffffff;
+            font-size: 4rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
         }
-        
-        /* Hide the checkbox */
+
+        /* The main sticky header bar */
+        .header-bar {
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 50;
+            background-color: white;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+
+        /* Hide the checkbox on all screen sizes */
         .nav-toggle {
             display: none;
         }
 
-        /* The main navigation menu */
+        /* The hamburger icon, now always visible */
+        .nav-toggle-label {
+            display: block;
+            cursor: pointer;
+            font-size: 1.75rem;
+            color: #1f2937;
+        }
+        
+        /* The main navigation menu, now always a vertical overlay */
         .header-nav {
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            height: 100vh; /* Make it full-screen height on mobile */
+            height: 100vh;
             background-color: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(5px);
             padding-top: 6rem;
@@ -84,22 +95,13 @@
             transition: transform 0.5s ease-in-out;
             z-index: 99;
         }
-        
-        /* Show the menu when the toggle is checked */
+
+        /* Show the menu when the checkbox is checked */
         .nav-toggle:checked ~ .header-nav {
             transform: translateY(0);
         }
-        
-        /* Individual links and dropdowns inside the menu */
-        .header-nav a, .header-nav .dropdown .nav-label {
-            color: #1f2937;
-            font-size: 1.5rem;
-            padding: 1rem 2rem;
-            text-align: center;
-            width: 100%;
-        }
 
-        /* The dropdown content is also vertical */
+        /* The dropdown content, also vertical */
         .dropdown-content {
             display: none;
             flex-direction: column;
@@ -111,97 +113,81 @@
         .dropdown-toggle:checked ~ .dropdown-content {
             display: flex;
         }
-
-        /* --- Desktop Styling --- */
-        @media (min-width: 768px) {
-            .nav-toggle-label {
-                display: none; /* Hide the hamburger on desktop */
-            }
-
-            .header-nav {
-                position: static;
-                height: auto;
-                background: none;
-                backdrop-filter: none;
-                transform: translateY(0);
-                padding: 0;
-                flex-direction: row; /* Horizontal list on desktop */
-                justify-content: center;
-            }
-
-            .header-nav a, .header-nav .dropdown {
-                margin: 0 1.5rem;
-                padding: 0;
-            }
-            
-            .header-nav a, .header-nav .dropdown .nav-label {
-                font-size: 1rem;
-                padding: 0;
-            }
-
-            /* For desktop, use hover for dropdowns */
-            .dropdown:hover .dropdown-content {
-                display: flex;
-            }
-            .dropdown-content {
-                position: absolute;
-                top: 100%;
-                left: 0;
-                background-color: white;
-                box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-                min-width: 12rem;
-                padding: 1rem;
-            }
+        
+        /* Styling for the links and labels in the vertical menu */
+        .header-nav a, .header-nav .dropdown .nav-label {
+            color: #1f2937;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            text-align: center;
+            width: 100%;
         }
+
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- The hero banner with the title and the subtle hamburger toggle -->
+    <!-- The hero banner with the title -->
     <section class="hero-local">
       <div class="hero-content text-center">
         <h1 class="text-white text-4xl md:text-6xl font-bold text-shadow-lg">
             Zhu Lab
         </h1>
       </div>
-
-      <!-- The toggle checkbox and its label are now inside the banner -->
-      <input type="checkbox" class="nav-toggle" id="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label md:hidden">
-          <i class="fas fa-bars"></i>
-      </label>
     </section>
 
-    <!-- The navigation menu. On mobile, it slides down from the top. -->
-    <nav class="header-nav fixed md:static">
-        <a href="{{ '/research/' | relative_url }}" class="hover:bg-gray-200 md:hover:text-blue-600 transition-colors">
-            Research
-        </a>
-        
-        <!-- Team dropdown -->
-        <div class="dropdown relative">
-            <input type="checkbox" class="dropdown-toggle" id="dropdown-toggle-team">
-            <label for="dropdown-toggle-team" class="nav-label hover:bg-gray-200 md:hover:text-blue-600 transition-colors flex items-center justify-between">
-                Team
-                <span class="ml-2 text-sm">▼</span>
+    <!--
+      This is the main header/navigation bar.
+      It is now a sticky bar that handles all navigation.
+    -->
+    <header class="header-bar">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <!-- Website Title/Logo (appears in the sticky bar) -->
+            <a href="{{ "/" | relative_url }}" class="title-text text-2xl md:text-3xl font-bold text-gray-800 transition-colors duration-200 hover:text-blue-600">
+                Zhu Lab
+            </a>
+            
+            <!-- The Hamburger Toggle button is now always visible -->
+            <input type="checkbox" class="nav-toggle" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fas fa-bars"></i>
             </label>
-            <div class="dropdown-content">
-                <a href="{{ '/team/current/' | relative_url }}" class="block p-4 hover:bg-gray-100 rounded-md">
-                    Current Members
-                </a>
-                <a href="{{ '/team/alumni/' | relative_url }}" class="block p-4 hover:bg-gray-100 rounded-md">
-                    Alumni
-                </a>
-            </div>
-        </div>
 
-        <a href="{{ '/publications/' | relative_url }}" class="hover:bg-gray-200 md:hover:text-blue-600 transition-colors">
-            Publications
-        </a>
-        <a href="{{ '/contact/' | relative_url }}" class="hover:bg-gray-200 md:hover:text-blue-600 transition-colors">
-            Contact
-        </a>
-    </nav>
+            <!--
+              The combined navigation menu.
+              It is a vertical dropdown that slides down on click.
+            -->
+            <nav class="header-nav">
+                <a href="{{ '/research/' | relative_url }}" class="hover:bg-gray-200 transition-colors block p-4">
+                    Research
+                </a>
+                
+                <!-- Team dropdown -->
+                <div class="dropdown relative">
+                    <input type="checkbox" class="dropdown-toggle" id="dropdown-toggle-team">
+                    <label for="dropdown-toggle-team" class="nav-label hover:bg-gray-200 transition-colors flex items-center justify-between p-4">
+                        Team
+                        <span class="ml-2 text-sm">▼</span>
+                    </label>
+                    <div class="dropdown-content">
+                        <a href="{{ '/team/current/' | relative_url }}" class="block p-4 hover:bg-gray-100 rounded-md">
+                            Current Members
+                        </a>
+                        <a href="{{ '/team/alumni/' | relative_url }}" class="block p-4 hover:bg-gray-100 rounded-md">
+                            Alumni
+                        </a>
+                    </div>
+                </div>
+
+                <a href="{{ '/publications/' | relative_url }}" class="hover:bg-gray-200 transition-colors block p-4">
+                    Publications
+                </a>
+                <a href="{{ '/contact/' | relative_url }}" class="hover:bg-gray-200 transition-colors block p-4">
+                    Contact
+                </a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Your main content would go here -->
     <main class="container mx-auto p-8">
@@ -212,3 +198,4 @@
     </main>
 </body>
 </html>
+  
