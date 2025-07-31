@@ -24,6 +24,7 @@ If you are interested to learn more about Zhu Lab, please reach out using the in
 {%
   include button.html
   type="Address"
+  text="U.A. Whitaker"
   tooltip="Our location on Google Maps for easy navigation"
   link="https://share.google/Kikzr4Er9HRltu5dz"
 %}
