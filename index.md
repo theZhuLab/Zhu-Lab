@@ -9,6 +9,13 @@ Welcome to the Zhu lab at Georgia Tech. We study single molecular adhesion with 
 
 {% include section.html %}
 
+<section class="hero-local">
+  <div class="hero-content">
+    <h1>Welcome to the Zhu Lab</h1>
+    <p>We study single molecular adhesion with force spectroscopy for various cells and disease models.</p>
+  </div>
+</section>
+
 ## Highlights
 
 {% capture text %}
