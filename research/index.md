@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: default
-banner_image: /Zhu-Lab/images/zhu_lab_clip.gif
+banner_image: /Zhu-Lab/images/bfp.gif
 nav:
   order: 1
   tooltip: What we do
