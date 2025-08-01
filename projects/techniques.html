@@ -393,9 +393,9 @@
 
 <!--
   This is the updated HTML document.
-  The navigation now consists of a single hamburger toggle that
-  is visible on all screen sizes, including desktop.
-  Clicking it reveals a full-screen, vertical menu.
+  The navigation now appears as a compact dropdown panel
+  that slides out from the hamburger toggle.
+  The hamburger icon remains visible on all screen sizes.
 -->
 
 
@@ -460,37 +460,36 @@
             color: #1f2937;
         }
         
-        /* The main navigation menu, now always a vertical overlay */
+        /* The navigation dropdown panel */
         .header-nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            background-color: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(5px);
-            padding-top: 6rem;
+            position: absolute;
+            top: 100%; /* Position it right below the header */
+            right: 0;
+            width: 250px; /* Give it a fixed width */
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            padding: 0.5rem;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
             
-            /* The transition to make it slide in/out */
-            transform: translateY(-100%);
-            transition: transform 0.5s ease-in-out;
+            /* The transition to make it slide out/in */
+            transform-origin: top right;
+            transform: scaleY(0);
+            transition: transform 0.3s ease-in-out;
             z-index: 99;
         }
 
         /* Show the menu when the checkbox is checked */
         .nav-toggle:checked ~ .header-nav {
-            transform: translateY(0);
+            transform: scaleY(1);
         }
 
         /* The dropdown content, also vertical */
         .dropdown-content {
             display: none;
             flex-direction: column;
-            background-color: rgba(243, 244, 246, 0.8);
+            background-color: #f3f4f6;
             width: 100%;
         }
         
@@ -502,12 +501,15 @@
         /* Styling for the links and labels in the vertical menu */
         .header-nav a, .header-nav .dropdown .nav-label {
             color: #1f2937;
-            font-size: 1.5rem;
-            padding: 1rem 2rem;
-            text-align: center;
+            font-size: 1rem;
+            padding: 0.75rem 1rem;
+            text-align: left;
+            width: 100%;
+            border-radius: 0.375rem;
+        }
+        .header-nav .dropdown {
             width: 100%;
         }
-
     </style>
 
 
@@ -526,7 +528,7 @@
       It is now a sticky bar that handles all navigation.
     -->
     <header class="header-bar">
-        <div class="container mx-auto flex items-center justify-between p-4">
+        <div class="container mx-auto flex items-center justify-between p-4 relative">
             <!-- Website Title/Logo (appears in the sticky bar) -->
             <a href="/Zhu-Lab/" class="title-text text-2xl md:text-3xl font-bold text-gray-800 transition-colors duration-200 hover:text-blue-600">
                 Zhu Lab
@@ -540,17 +542,17 @@
 
             <!--
               The combined navigation menu.
-              It is a vertical dropdown that slides down on click.
+              It is now a vertical dropdown that slides out on click.
             -->
             <nav class="header-nav">
-                <a href="/Zhu-Lab/research/" class="hover:bg-gray-200 transition-colors block p-4">
+                <a href="/Zhu-Lab/research/" class="hover:bg-gray-200 transition-colors block">
                     Research
                 </a>
                 
                 <!-- Team dropdown -->
-                <div class="dropdown relative">
+                <div class="dropdown">
                     <input type="checkbox" class="dropdown-toggle" id="dropdown-toggle-team">
-                    <label for="dropdown-toggle-team" class="nav-label hover:bg-gray-200 transition-colors flex items-center justify-between p-4">
+                    <label for="dropdown-toggle-team" class="nav-label hover:bg-gray-200 transition-colors flex items-center justify-between">
                         Team
                         <span class="ml-2 text-sm">▼</span>
                     </label>
@@ -564,10 +566,10 @@
                     </div>
                 </div>
 
-                <a href="/Zhu-Lab/publications/" class="hover:bg-gray-200 transition-colors block p-4">
+                <a href="/Zhu-Lab/publications/" class="hover:bg-gray-200 transition-colors block">
                     Publications
                 </a>
-                <a href="/Zhu-Lab/contact/" class="hover:bg-gray-200 transition-colors block p-4">
+                <a href="/Zhu-Lab/contact/" class="hover:bg-gray-200 transition-colors block">
                     Contact
                 </a>
             </nav>
@@ -583,7 +585,6 @@
     </main>
 
 
-  
 
     <main>
       <!--
