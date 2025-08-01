@@ -4,7 +4,7 @@ nav:
   order: 1
   tooltip: What we do
 ---
-{% include research.html %}
+
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
