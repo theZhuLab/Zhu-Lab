@@ -1,12 +1,13 @@
 ---
 title: Contact
 layout: default
-img src= images/whitaker.jpg
+permalink: /contact/
+banner_image: "images/whitaker.jpg"
+banner_alt: "Whitaker Building"
 nav:
   order: 5
   tooltip: Email, address, and location
 ---
-
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
