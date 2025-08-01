@@ -1,9 +1,7 @@
 <!--
   This is the final, standalone HTML file for the Research page.
-  The image path has been corrected to reflect your file structure:
-  - research.html is in /Zhu-Lab/research/
-  - bfp.gif is in /Zhu-Lab/images/
-  The correct relative path is now `../images/bfp.gif`.
+  The image path and all navigation links have been updated to use
+  the absolute path `/Zhu-Lab/` to work correctly on your GitHub Pages site.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -122,15 +120,15 @@
 <body class="bg-gray-50 text-gray-800">
 
     <section class="hero-local">
-      <!-- The GIF image path has been updated to the correct relative path -->
-      <img src="../images/bfp.gif"
+      <!-- The GIF image path has been updated to the correct absolute path -->
+      <img src="/Zhu-Lab/images/bfp.gif"
            alt="Research GIF Banner"
            class="hero-gif"
-           onerror="console.error('Failed to load image: ../images/bfp.gif'); this.src='https://placehold.co/1200x400/000000/FFFFFF?text=GIF+Not+Found';">
+           onerror="console.error('Failed to load image: /Zhu-Lab/images/bfp.gif'); this.src='https://placehold.co/1200x400/000000/FFFFFF?text=GIF+Not+Found';">
       <div class="hero-content">
         <h1 class="hero-content h1">
             <!-- Link to the home page -->
-            <a href="index.html" class="text-white text-4xl md:text-6xl font-bold text-shadow-lg">
+            <a href="/Zhu-Lab/" class="text-white text-4xl md:text-6xl font-bold text-shadow-lg">
                 Zhu Lab
             </a>
         </h1>
@@ -141,12 +139,12 @@
       </div>
 
       <nav id="main-nav" class="header-nav">
-          <!-- All navigation links have been updated to standard HTML file names -->
-          <a href="research.html" class="hover:bg-gray-200 transition-colors block">
+          <!-- All navigation links have been updated to use absolute paths -->
+          <a href="/Zhu-Lab/research/" class="hover:bg-gray-200 transition-colors block">
               Research
           </a>
           
-          <a href="projects.html" class="hover:bg-gray-200 transition-colors block">
+          <a href="/Zhu-Lab/projects/" class="hover:bg-gray-200 transition-colors block">
               Projects
           </a>
 
@@ -156,20 +154,20 @@
                   <span class="ml-2 text-sm">▼</span>
               </div>
               <div id="team-dropdown-content" class="dropdown-content">
-                  <a href="current_members.html" class="block p-4 hover:bg-gray-100 rounded-md">
+                  <a href="/Zhu-Lab/team/current/" class="block p-4 hover:bg-gray-100 rounded-md">
                       Current Members
                   </a>
-                  <a href="alumni.html" class="block p-4 hover:bg-gray-100 rounded-md">
+                  <a href="/Zhu-Lab/team/alumni/" class="block p-4 hover:bg-gray-100 rounded-md">
                       Alumni
                   </a>
               </div>
           </div>
 
-          <a href="blog.html" class="hover:bg-gray-200 transition-colors block">
+          <a href="/Zhu-Lab/blog/" class="hover:bg-gray-200 transition-colors block">
               Blog
           </a>
 
-          <a href="contact.html" class="hover:bg-gray-200 transition-colors block">
+          <a href="/Zhu-Lab/contact/" class="hover:bg-gray-200 transition-colors block">
               Contact
           </a>
       </nav>
