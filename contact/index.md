@@ -2,7 +2,7 @@
 title: Contact
 layout: default
 permalink: /contact/
-page.banner_image: "images/whitaker.jpg"
+page.banner_image: images/whitaker.jpg
 banner_alt: "Whitaker Building"
 nav:
   order: 5
