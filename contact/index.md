@@ -4,7 +4,7 @@ nav:
   order: 5
   tooltip: Email, address, and location
 ---
-{% include contact.html %}
+
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
 If you are interested to learn more about Zhu Lab, please reach out using the information below. 
