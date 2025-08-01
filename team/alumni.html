@@ -307,9 +307,6 @@
  <link rel="stylesheet" href="/Zhu-Lab/assets/css/banner.css">
 </head>
 
-<!-- Google Font: Lato -->
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-
 <!--
   This is the updated HTML document.
   The hamburger toggle and the site title are now located directly
@@ -432,8 +429,11 @@
     -->
     <section class="hero-local">
       <div class="hero-content">
-        <h1 class="text-white text-4xl md:text-6xl font-bold text-shadow-lg">
-            Zhu Lab
+        <!-- The site title is now a clickable link -->
+        <h1 class="hero-content h1">
+            <a href="/Zhu-Lab/" class="text-white text-4xl md:text-6xl font-bold text-shadow-lg">
+                Zhu Lab
+            </a>
         </h1>
       </div>
     
@@ -481,6 +481,14 @@
           </a>
       </nav>
     </section>
+
+    <!-- Your main content would go here -->
+    <main class="container mx-auto p-8">
+        <h2 class="text-3xl font-bold mb-4">Welcome to the Zhu Lab!</h2>
+        <p class="text-gray-700">
+            This is where your main website content will go. The header with the banner and responsive navigation is now complete.
+        </p>
+    </main>
 
     <script>
         // Get the elements from the DOM
