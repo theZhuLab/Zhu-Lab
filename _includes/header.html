@@ -154,10 +154,15 @@
               It is now a vertical dropdown that slides out on click.
             -->
             <nav id="main-nav" class="header-nav">
+                <!-- Links are reordered and updated here -->
                 <a href="{{ '/research/' | relative_url }}" class="hover:bg-gray-200 transition-colors block">
                     Research
                 </a>
                 
+                <a href="{{ '/projects/' | relative_url }}" class="hover:bg-gray-200 transition-colors block">
+                    Projects
+                </a>
+
                 <!-- Team dropdown -->
                 <div class="dropdown">
                     <div id="team-dropdown-btn" class="dropdown-btn hover:bg-gray-200 transition-colors flex items-center justify-between">
@@ -174,9 +179,10 @@
                     </div>
                 </div>
 
-                <a href="{{ '/publications/' | relative_url }}" class="hover:bg-gray-200 transition-colors block">
-                    Publications
+                <a href="{{ '/blog/' | relative_url }}" class="hover:bg-gray-200 transition-colors block">
+                    Blog
                 </a>
+
                 <a href="{{ '/contact/' | relative_url }}" class="hover:bg-gray-200 transition-colors block">
                     Contact
                 </a>
