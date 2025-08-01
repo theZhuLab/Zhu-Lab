@@ -1,4 +1,10 @@
 {% assign image = page.header | default: site.header %}
+...
+<header
+  class="background"
+  style="--image: url('{{ image | relative_url | uri_escape }}')"
+  ...
+>
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
 {% assign svg = "images/logo.svg" | file_exists %}
