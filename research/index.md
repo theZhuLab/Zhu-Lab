@@ -1,10 +1,11 @@
 ---
 title: Research
+layout: default
+banner_image: /Zhu-Lab/images/bfp.gif
 nav:
   order: 1
   tooltip: What we do
 ---
-
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
