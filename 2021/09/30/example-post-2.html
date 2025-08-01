@@ -66,10 +66,10 @@
 
   <meta name="author" content="jane-smith">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-08-01T00:51:40+00:00">
+  <meta property="og:updated_time" content="2025-08-01T00:58:57+00:00">
   <meta property="article:published_time" content="2021-09-30T00:00:00+00:00">
-  <meta property="article:modified_time" content="2025-08-01T00:51:40+00:00">
-  <meta name="revised" content="2025-08-01T00:51:40+00:00">
+  <meta property="article:modified_time" content="2025-08-01T00:58:57+00:00">
+  <meta name="revised" content="2025-08-01T00:58:57+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Example post 2" },
       "datePublished": "2021-09-30T00:00:00+00:00",
-      "dateModified": "2025-08-01T00:51:40+00:00",
+      "dateModified": "2025-08-01T00:58:57+00:00",
     
     "name": "Example post 2",
     "description": "Welcome to the Zhu lab . We study single molecular adhesion with force spectroscopy for various cells and disease models. We pioneered in the discovery of force-prolonged bond lifetime, or the &quot;catch bond,&quot; using the biomembrane force probe paired with mutation studies and molecular dynamics simulations.",
@@ -314,8 +314,9 @@
 
 <!--
   This is the updated HTML document.
-  The navigation now uses JavaScript to toggle the menu, removing the need for hidden checkboxes.
-  This allows for more control over the menu's behavior.
+  The hamburger toggle and the site title are now located directly
+  inside the hero banner section, without a separate sticky header bar.
+  Clicking the toggle reveals a vertical dropdown menu.
 -->
 
 
@@ -351,35 +352,32 @@
         }
 
         /* The title text in the banner */
+        .hero-content {
+            text-align: center;
+        }
         .hero-content h1 {
             color: #ffffff;
             font-size: 4rem;
             text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
         }
 
-        /* The main sticky header bar */
-        .header-bar {
-            position: sticky;
-            top: 0;
-            left: 0;
-            z-index: 50;
-            background-color: white;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-        }
-
-        /* The hamburger icon, now always visible */
+        /* The hamburger icon, now always visible and positioned absolutely within the banner */
         .nav-toggle-btn {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
             display: block;
             cursor: pointer;
             font-size: 1.75rem;
-            color: #1f2937;
+            color: white;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
         }
         
         /* The navigation dropdown panel */
         .header-nav {
             position: absolute;
-            top: 100%; /* Position it right below the header */
-            right: 0;
+            top: calc(2rem + 1.75rem + 1rem); /* Position it below the hamburger icon */
+            right: 2rem;
             width: 250px; /* Give it a fixed width */
             background-color: white;
             border-radius: 0.5rem;
@@ -431,79 +429,68 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- The hero banner with the title -->
+    <!--
+      The hero banner is now the main container for both the site title and the navigation toggle.
+    -->
     <section class="hero-local">
-      <div class="hero-content text-center">
+      <div class="hero-content">
         <h1 class="text-white text-4xl md:text-6xl font-bold text-shadow-lg">
             Zhu Lab
         </h1>
       </div>
+    
+      <!-- The Hamburger Toggle button is now inside the banner and always visible -->
+      <div id="nav-toggle-btn" class="nav-toggle-btn">
+          <i class="fas fa-bars"></i>
+      </div>
+
+      <!--
+        The combined navigation menu.
+        It is now a vertical dropdown that slides out from the banner.
+      -->
+      <nav id="main-nav" class="header-nav">
+          <!-- Links are reordered and updated here -->
+          <a href="/Zhu-Lab/research/" class="hover:bg-gray-200 transition-colors block">
+              Research
+          </a>
+          
+          <a href="/Zhu-Lab/projects/" class="hover:bg-gray-200 transition-colors block">
+              Projects
+          </a>
+
+          <!-- Team dropdown -->
+          <div class="dropdown">
+              <div id="team-dropdown-btn" class="dropdown-btn hover:bg-gray-200 transition-colors flex items-center justify-between">
+                  Team
+                  <span class="ml-2 text-sm">▼</span>
+              </div>
+              <div id="team-dropdown-content" class="dropdown-content">
+                  <a href="/Zhu-Lab/team/current/" class="block p-4 hover:bg-gray-100 rounded-md">
+                      Current Members
+                  </a>
+                  <a href="/Zhu-Lab/team/alumni/" class="block p-4 hover:bg-gray-100 rounded-md">
+                      Alumni
+                  </a>
+              </div>
+          </div>
+
+          <a href="/Zhu-Lab/blog/" class="hover:bg-gray-200 transition-colors block">
+              Blog
+          </a>
+
+          <a href="/Zhu-Lab/contact/" class="hover:bg-gray-200 transition-colors block">
+              Contact
+          </a>
+      </nav>
     </section>
 
-    <!--
-      This is the main header/navigation bar.
-      It is now a sticky bar that handles all navigation.
-    -->
-    <header class="header-bar">
-        <div class="container mx-auto flex items-center justify-between p-4 relative">
-            <!-- Website Title/Logo (appears in the sticky bar) -->
-            <a href="/Zhu-Lab/" class="title-text text-2xl md:text-3xl font-bold text-gray-800 transition-colors duration-200 hover:text-blue-600">
-                Zhu Lab
-            </a>
-            
-            <!-- The Hamburger Toggle button is now always visible -->
-            <div id="nav-toggle-btn" class="nav-toggle-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-
-            <!--
-              The combined navigation menu.
-              It is now a vertical dropdown that slides out on click.
-            -->
-            <nav id="main-nav" class="header-nav">
-                <!-- Links are reordered and updated here -->
-                <a href="/Zhu-Lab/research/" class="hover:bg-gray-200 transition-colors block">
-                    Research
-                </a>
-                
-                <a href="/Zhu-Lab/projects/" class="hover:bg-gray-200 transition-colors block">
-                    Projects
-                </a>
-
-                <!-- Team dropdown -->
-                <div class="dropdown">
-                    <div id="team-dropdown-btn" class="dropdown-btn hover:bg-gray-200 transition-colors flex items-center justify-between">
-                        Team
-                        <span class="ml-2 text-sm">▼</span>
-                    </div>
-                    <div id="team-dropdown-content" class="dropdown-content">
-                        <a href="/Zhu-Lab/team/current/" class="block p-4 hover:bg-gray-100 rounded-md">
-                            Current Members
-                        </a>
-                        <a href="/Zhu-Lab/team/alumni/" class="block p-4 hover:bg-gray-100 rounded-md">
-                            Alumni
-                        </a>
-                    </div>
-                </div>
-
-                <a href="/Zhu-Lab/blog/" class="hover:bg-gray-200 transition-colors block">
-                    Blog
-                </a>
-
-                <a href="/Zhu-Lab/contact/" class="hover:bg-gray-200 transition-colors block">
-                    Contact
-                </a>
-            </nav>
-        </div>
-    </header>
-
     <!-- Your main content would go here -->
-    
-        Welcome to the Zhu Lab!
-        
+    <main class="container mx-auto p-8">
+        <h2 class="text-3xl font-bold mb-4">Welcome to the Zhu Lab!</h2>
+        <p class="text-gray-700">
             This is where your main website content will go. The header with the banner and responsive navigation is now complete.
-        
-    
+        </p>
+    </main>
 
     <script>
         // Get the elements from the DOM
