@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: default
-banner_image: /Zhu-Lab/images/whitaker.jpg
+banner_image: /Zhu-Lab/images/Whitaker.jpg
 banner_alt: "Whitaker Building"
 nav:
   order: 5
