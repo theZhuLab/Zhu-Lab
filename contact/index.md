@@ -1,7 +1,6 @@
 ---
 title: Contact
 layout: default
-permalink: /contact/
 page.banner_image: images/whitaker.jpg
 banner_alt: "Whitaker Building"
 nav:
