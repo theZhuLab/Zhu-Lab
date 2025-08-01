@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: default
-banner_image: Zhu-Lab/images/whitaker.jpg
+banner_image: images/whitaker.jpg
 nav:
   order: 5
   tooltip: Email, address, and location
