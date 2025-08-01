@@ -374,11 +374,8 @@
 
 <!--
   This is the updated header.html include file for your Jekyll site.
-  Instead of a hard-coded image, it now uses variables from a page's
-  front matter to set the banner image and title.
-
-  If a page doesn't define `page.banner_image`, it will show a fallback
-  banner with the text "Zhu Lab".
+  It now includes a fix to ensure the "Zhu Lab" text in the banner is white,
+  even if other styles are overriding the Tailwind class.
 -->
 
 <!-- The banner with the dynamic image -->
@@ -469,9 +466,12 @@
         z-index: 1;
     }
     .hero-content h1 {
-        color: #ffffff;
         font-size: 4rem;
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+    /* This new rule ensures the link color inside the banner title is always white */
+    .hero-content h1 a {
+        color: #ffffff;
     }
 
     .nav-toggle-btn {
