@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: default
-banner_image: images/whitaker.jpg
+img src= images/whitaker.jpg
 nav:
   order: 5
   tooltip: Email, address, and location
