@@ -5,25 +5,31 @@
   | data_filter: include.filter
 %}
 
-{% assign years = data
-  | group_by_exp: "d", "d.date | date: '%Y'"
-  | sort: "name"
-  | reverse
-%}
+{% if include.group_by_year != false %}
+  {% assign years = data
+    | group_by_exp: "d", "d.date | date: '%Y'"
+    | sort: "name"
+    | reverse
+  %}
+{% else %}
+  {% assign years = "" | split: "" | push: "All" %}
+{% endif %}
 
 {% for year in years %}
-  {% assign data = year.items %}
+  {% assign data = include.group_by_year != false
+    | if: year == "All"
+    | then: site[include.data]
+    | else: year.items
+  %}
 
-  {% if years.size > 1 %}
-    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+  {% if include.group_by_year != false and years.size > 1 %}
+    <h3 id="{{ year.name }}">{{ year.name }}</h3>
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
-
-    {%
-      include {{ include.component | append: ".html" }}
+    {% include {{ include.component | append: ".html" }}
       affiliation=d.affiliation
       author=d.author
       authors=d.authors
