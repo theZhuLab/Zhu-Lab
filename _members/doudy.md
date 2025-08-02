@@ -2,6 +2,7 @@
 name: Larissa Doudy
 image: images/larissa.png
 description: Lab Manager
+role: lab manager
 links:
   orcid: 0009-0009-5761-8729
   linkedin: larissa-doudy-3280ba79
