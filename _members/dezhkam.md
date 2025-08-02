@@ -2,6 +2,7 @@
 name: Rasool Dezhkam
 image: images/Dezhkam.jpeg
 description: PhD Student
+role: phd
 links:
   orcid: 0000-0002-2586-0539
   linkedin: rasool-dezhkam
