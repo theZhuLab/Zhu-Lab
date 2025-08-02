@@ -2,6 +2,7 @@
 name: Valencia Watson
 image: images/Watson.png
 description: PhD Student
+role: phd
 links:
   orcid: 0000-0001-6857-798X
   linkedin: valencia-e-watson-4966a2126
