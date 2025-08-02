@@ -25,4 +25,4 @@ We are interested in how cells use surface receptors to sense and respond to the
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html data="citations" component="citation" style="rich" group_by_year= true %}
