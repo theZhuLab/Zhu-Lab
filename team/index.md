@@ -12,29 +12,29 @@ We are a team of passionate and diverse biomedical, mechanical engineers, biophy
 
 {% include section.html %}
 
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: pi"
+{% include list.html
+   data="members"
+   component="portrait"
+   filters="role: pi"
+   group_by_year=false
 %}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: lab manager"
+{% include list.html
+   data="members"
+   component="portrait"
+   filters="role: lab manager"
+   group_by_year=false
 %}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: postdoc"
+{% include list.html
+   data="members"
+   component="portrait"
+   filters="role: postdoc"
+   group_by_year=false
 %}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: phd"
+{% include list.html
+   data="members"
+   component="portrait"
+   filters="role: phd"
+   group_by_year=false
 %}
 
 {:.center}
