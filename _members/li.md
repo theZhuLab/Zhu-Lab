@@ -2,7 +2,7 @@
 name: Menglan Li 
 image: images/menglan-li.jpeg
 description: Post-doctoral Research
-#role: programmer
+role: postdoc
 links:
   orcid: 0009-0003-5248-5433
   google-scholar: wqa5ccEAAAAJ&hl
