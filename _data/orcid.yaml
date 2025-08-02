@@ -1,7 +1,4 @@
-#- orcid: 0000-0002-1718-565X #Dr. Zhu's
-
-- orcid: 0009-0009-5761-8729
-  -  require_orcid: 0000-0002-1718-565X 
+- orcid: 0000-0002-1718-565X #Dr. Zhu's
 
 # format:
 #- orcid: XXX          # Student ORCID
