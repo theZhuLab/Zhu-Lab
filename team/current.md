@@ -3,6 +3,8 @@ title: Current members
 nav: 
   order: 1
   parent: Team
+  permalink: /team/current/ 
+  banner_image: 
 --- 
 
 # <i class="fas fa-users"></i>Team
