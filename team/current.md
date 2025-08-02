@@ -1,7 +1,7 @@
 ---
 title: Current members
 permalink: /team/current/ 
-banner_image: 
+banner_image: /images/Zhu2025.jpeg
 nav: 
   order: 1
   parent: Team
