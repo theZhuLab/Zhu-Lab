@@ -36,10 +36,5 @@ We are a team of passionate and diverse biomedical, mechanical engineers, biophy
   component="portrait"
   filters="role: phd"
 %}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: alumni"
-%}
+
 {:.center}
