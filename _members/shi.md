@@ -2,7 +2,7 @@
 name: Jiawei Shi  
 image: images/Shi.jpg
 description: Post-doctoral Research
-#role: programmer
+role: postdoc
 links:
   orcid: 0009-0004-8345-1495
 ---
