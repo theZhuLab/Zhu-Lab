@@ -19,21 +19,6 @@
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
-<!--
-  This file correctly filters the members list based on the 'filters' parameter.
-  It ensures that when you call this include, it only displays members
-  that match the specified role, preventing the infinite repetition.
--->
-{% assign members = site.data[include.data] | where: "role", include.filters %}
-{% for member in members %}
-  <div class="team-member">
-    <!-- Include the portrait component for each filtered member -->
-    {% include portrait.html lookup=member.slug %}
-  </div>
-{% endfor %}
-  {% for d in data %}
-    {% assign style = d.style | default: include.style %}
-
     {%
       include {{ include.component | append: ".html" }}
       affiliation=d.affiliation
