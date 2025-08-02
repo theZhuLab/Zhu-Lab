@@ -2,6 +2,7 @@
 name: Hannah Castels
 image: images/Castels.jpg
 description: PhD Student
+role: phd
 links:
   orcid: 0009-0000-3617-887X
   linkedin: hannahcastels
