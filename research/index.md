@@ -15,7 +15,7 @@ We are interested in how cells use surface receptors to sense, interpret, respon
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Catch Bonds in Immunology" style="rich" %}
 
 {% include section.html %}
 
