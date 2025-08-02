@@ -1,5 +1,6 @@
 ---
 title: Team
+banner_image: /images/Zhu2025.jpeg
 nav:
   order: 3
   tooltip: About our team
