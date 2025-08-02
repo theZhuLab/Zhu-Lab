@@ -2,6 +2,7 @@
 name: Makala Faniel
 image: images/faniel.jpg
 description: PhD Student
+role: phd
 links:
   orcid: 0000-0002-0242-3125
   linkedin: makala-faniel
