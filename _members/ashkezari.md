@@ -2,6 +2,7 @@
 name: Amir H.K. Ashkezari
 image: images/Ashkezari.jpeg
 description: PhD Student
+role: phd
 links:
   orcid: 0000-0002-7441-2927
   linkedin: amir-hossein-kazemipour-ashkezari-430ba3130
