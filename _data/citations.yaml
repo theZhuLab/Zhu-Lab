@@ -1344,3 +1344,13 @@
 - gsid: tPv2wEAAAAJ
   plugin: sources.py
   file: sources.yaml
+- id: 10.1146/annurev-immunol-082423-035904
+  title: Catch Bonds in Immunology
+  authors:
+  - Hyun-Kyu Choi
+  - Cheng Zhu
+  publisher: Annual Review of Immunology
+  date: '2025-04-25'
+  link: https://doi.org/g9vxhp
+  plugin: sources.py
+  file: sources.yaml
