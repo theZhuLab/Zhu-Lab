@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: default
-banner_image: /Zhu-Lab/images/Whitaker.jpg
+banner_image: /images/Whitaker.jpg
 banner_alt: "Whitaker Building"
 nav:
   order: 5
@@ -10,7 +10,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-If you are interested to learn more about Zhu Lab, please reach out using the information below. 
+If you are interested to learn more about Zhu Lab, please reach out using the information below.
 
 {%
   include button.html
@@ -31,5 +31,3 @@ If you are interested to learn more about Zhu Lab, please reach out using the in
   tooltip="Our location on Google Maps for easy navigation"
   link="https://share.google/Kikzr4Er9HRltu5dz"
 %}
-
-
