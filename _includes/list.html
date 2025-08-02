@@ -5,34 +5,25 @@
   | data_filter: include.filter
 %}
 
-{% if include.group_by_year != false %}
-  {% assign groups = data
-    | group_by_exp: "d", "d.date | date: '%Y'"
-    | sort: "name"
-    | reverse
-  %}
-{% else %}
-  {% assign groups = data | map: "dummy" %}
-{% endif %}
+{% assign years = data
+  | group_by_exp: "d", "d.date | date: '%Y'"
+  | sort: "name"
+  | reverse
+%}
 
-{% for group in groups %}
-  {% if include.group_by_year != false %}
-    {% assign group_items = group.items %}
-    {% assign group_name = group.name %}
-  {% else %}
-    {% assign group_items = data %}
-    {% assign group_name = nil %}
+{% for year in years %}
+  {% assign data = year.items %}
+
+  {% if years.size > 1 %}
+    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+    {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
-  {% if include.group_by_year != false and groups.size > 1 and group_name %}
-    <h3 id="{{ group_name }}">{{ group_name }}</h3>
-    {% assign group_items = group_items | sort: "date" | reverse %}
-  {% endif %}
-
-  {% for d in group_items %}
+  {% for d in data %}
     {% assign style = d.style | default: include.style %}
 
-    {% include {{ include.component | append: ".html" }}
+    {%
+      include {{ include.component | append: ".html" }}
       affiliation=d.affiliation
       author=d.author
       authors=d.authors
