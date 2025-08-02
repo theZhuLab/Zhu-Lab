@@ -6,29 +6,35 @@
 %}
 
 {% if include.group_by_year != false %}
-  {% assign years = data
+  {% assign groups = data
     | group_by_exp: "d", "d.date | date: '%Y'"
     | sort: "name"
     | reverse
   %}
 {% else %}
-  {% assign years = "" | split: "" | push: "All" %}
+  {% assign groups = data | sort: "date" | reverse | map: "date" %}
+  {% assign groups = groups | uniq %}
+  {% assign groups = groups | map: "to_s" %}
+  {% assign groups = groups | prepend: "All" %}
 {% endif %}
 
-{% for year in years %}
-  {% assign data = include.group_by_year != false
-    | if: year == "All"
-    | then: site[include.data]
-    | else: year.items
-  %}
-
-  {% if include.group_by_year != false and years.size > 1 %}
-    <h3 id="{{ year.name }}">{{ year.name }}</h3>
-    {% assign data = data | sort: "date" | reverse %}
+{% for year in groups %}
+  {% if include.group_by_year != false %}
+    {% assign year_items = year.items %}
+    {% assign year_name = year.name %}
+  {% else %}
+    {% assign year_items = data %}
+    {% assign year_name = "" %}
   {% endif %}
 
-  {% for d in data %}
+  {% if groups.size > 1 and year_name != "All" %}
+    <h3 id="{{ year_name }}">{{ year_name }}</h3>
+    {% assign year_items = year_items | sort: "date" | reverse %}
+  {% endif %}
+
+  {% for d in year_items %}
     {% assign style = d.style | default: include.style %}
+
     {% include {{ include.component | append: ".html" }}
       affiliation=d.affiliation
       author=d.author
