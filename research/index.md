@@ -9,7 +9,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-We are interested in how cells use surface receptors to sense, interpret, respond, and adapt to extracellular environment rich of mechanical cues.
+We are interested in how cells use surface receptors to sense and respond to the mechanical cues present in their extracellular environment, shaping their behavior and adaptation.
 
 {% include section.html %}
 
