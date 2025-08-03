@@ -9,7 +9,6 @@ nav:
 
 We explore diverse biophysical and biomedical questions through ongoing collaborations and interdisciplinary initiatives. Our current projects investigate the mechanobiology of immune cells by studying single-molecule force dynamics.
 
-{% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %}
 
