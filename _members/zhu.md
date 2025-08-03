@@ -2,7 +2,7 @@
 name: Cheng Zhu
 image: images/Zhu.jpg
 description: Principal Investigator
-role: principal investigator
+role: pi
 #affiliation: Georgia Institute of Technology
 links:
   email: cheng.zhu@bme.gatech.edu
