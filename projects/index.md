@@ -1,5 +1,6 @@
 ---
 title: Projects
+banner_image: /images/bfp2.jpg
 nav:
   order: 2
   
