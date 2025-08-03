@@ -1,7 +1,7 @@
 ---
 title: Alumni
 permalink: /team/alumni/
-banner_image: 
+banner_image: /images/zhu2024.jpeg
 nav: 
   order: 2
   parent: Team
