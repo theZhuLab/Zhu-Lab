@@ -14,7 +14,7 @@ Below is a list of former lab members who contributed to Zhu Lab’s legacy of s
 
 ---
 
-## Postdoctoral Fellows, Research Engineers/Scientists, and Visiting Professors Supervised
+## Postdoctoral Fellows, Research Engineers/Scientists, and Visiting Professors 
 
 - Dr. Yu-Hua Li – Research Scientist (1994–1999)
 - Dr. Mian Long – Research Scientist (1996–1999)
@@ -53,7 +53,7 @@ Below is a list of former lab members who contributed to Zhu Lab’s legacy of s
 
 ---
 
-## Ph.D. Students Supervised
+## Ph.D. Students 
 
 - Dr. James W. Piper – Ph.D. (1997)
 - Dr. Tom E. Williams – Ph.D. (1998)
@@ -94,7 +94,7 @@ Below is a list of former lab members who contributed to Zhu Lab’s legacy of s
   
 ---
 
-## M.S. Thesis Students Supervised
+## M.S. Thesis Students 
 
 - Jean Delobel – M.S. (1992)
 - Doughchun Xia – M.S. (1995)
