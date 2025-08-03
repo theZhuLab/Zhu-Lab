@@ -1,6 +1,6 @@
 ---
 title: Alumni
-permalink: /team/current/
+permalink: /team/alumni/
 banner_image: 
 tooltip: Former lab members
 nav: 
