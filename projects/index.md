@@ -8,7 +8,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-We explore diverse biophysical and biomedical questions through ongoing collaborations and interdisciplinary initiatives. Our current projects investigate the mechanobiology of immune cells by studying single-molecule force dynamics.
+The cells we are studying includes those in the immune system (e.g., T and B lymphocytes), cardiovascular system (e.g., platelets and endothelial cells), and the neuronal system (e.g., neurons and astrocytes). Cell surface receptors we are studying includes adhesion receptors (e.g., selectins and integrins), immunoreceptors (e.g., TCR, BCR, PD-1, CD40, etc.), and synaptic receptors (e.g., glutamate delta receptor and neuraxin).
 
 
 {% include search-info.html %}
