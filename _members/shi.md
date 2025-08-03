@@ -1,7 +1,7 @@
 ---
 name: Jiawei Shi  
 image: images/Shi.jpg
-description: Post-doctoral Research
+description: Post-doctoral Researcher
 role: postdoc
 links:
   orcid: 0009-0004-8345-1495
