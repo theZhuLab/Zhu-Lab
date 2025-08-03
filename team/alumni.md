@@ -2,10 +2,10 @@
 title: Alumni
 permalink: /team/alumni/
 banner_image: 
-tooltip: Former lab members
 nav: 
   order: 2
   parent: Team
+  tooltip: Former lab members
 --- 
 
 # <i class="fas fa-users"></i>Alumni
