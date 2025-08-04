@@ -11,7 +11,7 @@
 - title: Molecular Tension Probes (MTP)
   subtitle: 
   group: featured
-  image: images/MTP.png
+  image: images/MTP2.png
   link: 
   description: DNA-based MTPs allow us to probe the pico-Newton forces that cells endogenously apply on their membrane receptors that govern adhesion and antigen recognition. These hairpin probes unfold upon application of force and emit a fluorescent signal.
   repo: 
@@ -27,40 +27,40 @@
   tags:
     
 
-- title: Parallel Magnetic Force Activation (PMFA) assay
-  group: featured
-  image: images/photo.jpg
-  link: 
-  description: PMFA allows stimulation of cells with ligand-functionalized beads under magnetic force in a multi-well format using a magnetic well-plate lid. After stimulation, cells signaling can be analyzed by flow cytometry.
-  repo: 
-  tags:
+- #title: Parallel Magnetic Force Activation (PMFA) assay
+  #group: featured
+  #image: images/photo.jpg
+  #link: 
+  #description: PMFA allows stimulation of cells with ligand-functionalized beads under magnetic force in a multi-well format using a magnetic well-plate lid. After stimulation, cells signaling can be analyzed by flow cytometry.
+  #repo: 
+  #tags:
     
     
-- title: Steered Molecular Dynamics Simulations (SMD)
-  subtitle: 
-  group: featured
-  image: images/SMD.png
-  link: 
-  description: Molecular dynamics simulations under force allow us to simulate protein interactions to probe which protein residues are regulated by force. SMD can help us pin-point the residues involved in catch-bond interactions.
-  repo: 
-  tags:
+- #title: Steered Molecular Dynamics Simulations (SMD)
+  #subtitle: 
+  #group: featured
+  #image: images/SMD.png
+  #link: 
+  #description: Molecular dynamics simulations under force allow us to simulate protein interactions to probe which protein residues are regulated by force. SMD can help us pin-point the residues involved in catch-bond interactions.
+  #repo: 
+  #tags:
 
   
-- title: Multi-zone microfluidic flow chamber
-  subtitle: 
-  group: featured
-  image: images/Flow_chamber.png
-  link: 
-  description: These microfluidic chambers are coated with multiple proteins in different zones, allowing cells that are flowing in the chamber to encounter multiple ligands sequentially and with spatio-temporal control.
-  repo: 
-  tags:
+- #title: Multi-zone microfluidic flow chamber
+  #subtitle: 
+  #group: featured
+  #image: images/Flow_chamber.png
+  #link: 
+  #description: These microfluidic chambers are coated with multiple proteins in different zones, allowing cells that are flowing in the chamber to encounter multiple ligands sequentially and with spatio-temporal control.
+  #repo: 
+  #tags:
     
 
-- title: Horizontal Atomic Force Microscope (HAFM)
-  group: featured
-  image: images/HAFM.png
-  link: 
-  description: AFM on which the cantilever works horizontally. HAFM can measure receptor-ligand binding kinetics under force between two live cells
-  repo: 
-  tags:
+- #title: Horizontal Atomic Force Microscope (HAFM)
+  #group: featured
+  #image: images/HAFM.png
+  #link: 
+  #description: AFM on which the cantilever works horizontally. HAFM can measure receptor-ligand binding kinetics under force between two live cells
+  #repo: 
+  #tags:
     
