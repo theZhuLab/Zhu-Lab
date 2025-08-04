@@ -4,7 +4,7 @@ permalink: /projects/tools/
 banner_image: 
 nav:
   order: 2
-  parent: Projects
+  parent: projects
 ---
 # {% include icon.html icon="fa-solid fa-wrench" %}Tools
 
