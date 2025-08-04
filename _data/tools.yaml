@@ -27,7 +27,7 @@
   tags:
     
 
-- #title: Parallel Magnetic Force Activation (PMFA) assay
+#- title: Parallel Magnetic Force Activation (PMFA) assay
   #group: featured
   #image: images/photo.jpg
   #link: 
@@ -36,7 +36,7 @@
   #tags:
     
     
-- #title: Steered Molecular Dynamics Simulations (SMD)
+#- #title: Steered Molecular Dynamics Simulations (SMD)
   #subtitle: 
   #group: featured
   #image: images/SMD.png
@@ -46,7 +46,7 @@
   #tags:
 
   
-- #title: Multi-zone microfluidic flow chamber
+#- #title: Multi-zone microfluidic flow chamber
   #subtitle: 
   #group: featured
   #image: images/Flow_chamber.png
@@ -56,7 +56,7 @@
   #tags:
     
 
-- #title: Horizontal Atomic Force Microscope (HAFM)
+#- #title: Horizontal Atomic Force Microscope (HAFM)
   #group: featured
   #image: images/HAFM.png
   #link: 
