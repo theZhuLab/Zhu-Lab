@@ -6,12 +6,10 @@ nav:
   order: 2
   parent: projects
 ---
-# {% include icon.html icon="fa-solid fa-wrench" %}Tools
+# {% include icon.html icon="fa-solid fa-tools" %}Tools
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We have developed and use various tools to probe the machanobiology of cells, with a focus on understanding receptor-ligand interactions at the single molecule level, but also understanding the impact of cellular forces on receptor mechanotrasduction and subsequent cellular behavior.
 
-{% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %}
 
@@ -19,10 +17,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Featured
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+{% include list.html component="card" data="tools" filter="group == 'featured'" %}
 
 {% include section.html %}
 
-## More
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
