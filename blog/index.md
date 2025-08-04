@@ -12,8 +12,6 @@ Explore lab updates, research insights, and behind-the-scenes stories from our t
 <a class="twitter-timeline" data-width="400" data-height="400" href="https://twitter.com/chengzhulab?ref_src=twsrc%5Etfw">Tweets by chengzhulab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {:.center}
 
-<a href="https://twitter.com/chengzhulab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @chengzhulab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 {% include section.html %}
 
 {% include search-box.html %}
