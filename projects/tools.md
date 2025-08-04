@@ -1,6 +1,6 @@
 ---
 title: Tools 
-permalink: /projects/tools
+permalink: /projects/tools/
 banner_image: 
 nav:
   order: 2
