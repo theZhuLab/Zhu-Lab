@@ -1,10 +1,11 @@
 ---
 title: Tools 
+permalink: /projects/tools
+banner_image: 
 nav:
-  order: 3
+  order: 2
   parent: Projects
 ---
-
 # {% include icon.html icon="fa-solid fa-wrench" %}Tools
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
