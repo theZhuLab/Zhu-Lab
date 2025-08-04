@@ -1,14 +1,15 @@
+<!--
+  This is the corrected header.html include file for your Jekyll site.
+  It fixes the following issues:
+  - Corrects the HTML structure of the navigation dropdowns.
+  - Ensures the "Projects" and "Team" dropdown buttons function correctly.
+  - Cleans up the CSS and removes unnecessary tags that were causing spacing issues.
+-->
 {% assign image = page.header | default: site.header %} {% assign dark =
 page.header-dark | is_nil: site.header-dark | is_nil: true %} {% assign svg =
 "images/logo.svg" | file_exists %} {% assign png = "images/logo.png" |
 file_exists %} {% assign jpg = "images/logo.jpg" | file_exists %} {% assign logo
 = svg | default: png | default: jpg | default: nil %}
-
-<!--
-  This is the updated header.html include file for your Jekyll site.
-  It now includes a fix to ensure the "Zhu Lab" text in the banner is white,
-  even if other styles are overriding the Tailwind class.
--->
 
 <!-- The banner with the dynamic image -->
 <section class="hero-local">
@@ -46,36 +47,32 @@ file_exists %} {% assign jpg = "images/logo.jpg" | file_exists %} {% assign logo
       Research
     </a>
 
-    <a
-      href="{{ site.baseurl }}/projects/"
-      class="hover:bg-gray-200 transition-colors block"
-    >
-      <!-- Projects dropdown -->
-  <div class="dropdown">
-    <div
-      id="projects-dropdown-btn"
-      class="dropdown-btn hover:bg-gray-200 transition-colors flex items-center justify-between"
-  >
-    Projects
-    <span class="ml-2 text-sm">▼</span>
-  </div>
-  <div id="projects-dropdown-content" class="dropdown-content">
-    <a
-      href="{{ site.baseurl }}/projects/"
-      class="block p-4 hover:bg-gray-100 rounded-md"
-    >
-      Projects
-    </a>
-    <a
-      href="{{ site.baseurl }}/tools/"
-      class="block p-4 hover:bg-gray-100 rounded-md"
-    >
-      Tools
-      </a>
-     </div>
+    <!-- Projects dropdown -->
+    <div class="dropdown">
+      <div
+        id="projects-dropdown-btn"
+        class="dropdown-btn hover:bg-gray-200 transition-colors flex items-center justify-between"
+      >
+        Projects
+        <span class="ml-2 text-sm">▼</span>
+      </div>
+      <div id="projects-dropdown-content" class="dropdown-content">
+        <a
+          href="{{ site.baseurl }}/projects/"
+          class="block p-4 hover:bg-gray-100 rounded-md"
+        >
+          Projects
+        </a>
+        <a
+          href="{{ site.baseurl }}/tools/"
+          class="block p-4 hover:bg-gray-100 rounded-md"
+        >
+          Tools
+        </a>
+      </div>
     </div>
-      
-      <!-- Team dropdown -->
+
+    <!-- Team dropdown -->
     <div class="dropdown">
       <div
         id="team-dropdown-btn"
@@ -86,7 +83,7 @@ file_exists %} {% assign jpg = "images/logo.jpg" | file_exists %} {% assign logo
       </div>
       <div id="team-dropdown-content" class="dropdown-content">
         <a
-          href="{{ site.baseurl }}/team/"
+          href="{{ site.baseurl }}/team/current/"
           class="block p-4 hover:bg-gray-100 rounded-md"
         >
           Current Members
@@ -226,8 +223,20 @@ file_exists %} {% assign jpg = "images/logo.jpg" | file_exists %} {% assign logo
 <script>
   const navToggleBtn = document.getElementById("nav-toggle-btn");
   const mainNav = document.getElementById("main-nav");
+  const projectsDropdownBtn = document.getElementById('projects-dropdown-btn');
+  const projectsDropdownContent = document.getElementById('projects-dropdown-content');
+  const teamDropdownBtn = document.getElementById('team-dropdown-btn');
+  const teamDropdownContent = document.getElementById('team-dropdown-content');
 
   navToggleBtn.addEventListener("click", () => {
     mainNav.classList.toggle("is-open");
+  });
+  
+  projectsDropdownBtn.addEventListener('click', () => {
+    projectsDropdownContent.classList.toggle('is-open');
+  });
+
+  teamDropdownBtn.addEventListener('click', () => {
+    teamDropdownContent.classList.toggle('is-open');
   });
 </script>
