@@ -343,9 +343,23 @@
     </a>
 
     <a href="/projects/" class="hover:bg-gray-200 transition-colors block">
+      <!-- Projects dropdown -->
+  <div class="dropdown">
+    <div id="projects-dropdown-btn" class="dropdown-btn hover:bg-gray-200 transition-colors flex items-center justify-between">
+    Projects
+    <span class="ml-2 text-sm">▼</span>
+  </div>
+  <div id="projects-dropdown-content" class="dropdown-content">
+    <a href="/projects/" class="block p-4 hover:bg-gray-100 rounded-md">
       Projects
     </a>
-
+    <a href="/tools/" class="block p-4 hover:bg-gray-100 rounded-md">
+      Tools
+      </a>
+      </div>
+    </div>
+      
+      <!-- Team dropdown -->
     <div class="dropdown">
       <div id="team-dropdown-btn" class="dropdown-btn hover:bg-gray-200 transition-colors flex items-center justify-between">
         Team
@@ -361,7 +375,7 @@
       </div>
     </div>
 
-    <a href="/blog/" class="hover:bg-gray-200 transition-colors block">
+    </a><a href="/blog/" class="hover:bg-gray-200 transition-colors block">
       Blog
     </a>
 
