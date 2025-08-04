@@ -28,7 +28,7 @@ Our goal is to understand how mechanical force influences enzyme-linked receptor
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/tcr.png"
   link="research"
   title="Our Research"
   text=text
