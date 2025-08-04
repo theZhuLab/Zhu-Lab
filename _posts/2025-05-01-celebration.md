@@ -1,5 +1,6 @@
 ---
 title: Congrats Cara and Stefano! 
+author: Hannah Castels
 image: images/celebration.jpeg
 tags:
   - graduation
