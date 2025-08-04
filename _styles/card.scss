@@ -22,8 +22,11 @@
 
 .card-image img {
   aspect-ratio: 3 / 2;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   // box-shadow: var(--shadow);
 }
 
