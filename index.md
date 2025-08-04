@@ -51,7 +51,7 @@ By using tools like biomolecular force probes and molecular tension probes, we s
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/mtp.png"
   link="projects"
   title="Our Projects"
   flip=true
