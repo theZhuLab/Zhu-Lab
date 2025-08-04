@@ -76,7 +76,7 @@ Meet the people behind the research. Our team brings together scientists at all 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Zhu2025.jpeg"
   link="team"
   title="Our Team"
   text=text
