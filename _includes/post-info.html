@@ -6,6 +6,9 @@
       | split: ","
       | array_filter
     %}
+  {% if include.image %}
+    <img src="{{ include.image }}" alt="Post Image" class="post-image" style="max-width: 100%; height: auto; border-radius: 0.5rem; margin-bottom: 1rem;">
+  {% endif %}
     {% for author in authors %}
       {% assign member = site.members
         | where_exp: "member", "member.slug == author"
