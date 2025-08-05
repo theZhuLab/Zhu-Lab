@@ -8,7 +8,7 @@ nav:
 ---
 # {% include icon.html icon="fa-solid fa-tools" %}Tools
 
-We have developed and use various tools to probe the machanobiology of cells, with a focus on understanding receptor-ligand interactions at the single molecule level, but also understanding the impact of cellular forces on receptor mechanotrasduction and subsequent cellular behavior.
+We develop and apply a range of tools to investigate the mechanobiology of cells, with a particular focus on receptor–ligand interactions at the single-molecule level. Our research also explores how cellular forces influence receptor mechanotransduction and ultimately shape cell behavior.
 
 
 {% include search-info.html %}
