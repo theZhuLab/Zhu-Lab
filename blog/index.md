@@ -1,6 +1,6 @@
 ---
 title: Blog
-banner_image: /images/christmas21.JPG
+banner_image: images/christmas21.JPG
 nav:
   order: 4
   tooltip: News and updates
