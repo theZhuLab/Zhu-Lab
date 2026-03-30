@@ -50,6 +50,7 @@ Below is a list of former lab members who contributed to Zhu Lab’s legacy of s
 - Dr. Kaitao Li - Research Scientist (2016-2023)
 - Dr. Hyun-Kyu Choi - Research Scientist (2021-2023)
 - Dr. Peiwen Cong - Research Scientist (2019-2025)
+- Dr. Jiawei Shi - Postdoc (2025)
 
 ---
 
@@ -88,6 +89,9 @@ Below is a list of former lab members who contributed to Zhu Lab’s legacy of s
 - Dr. Jintian Lyu - Ph.D. (2018-2024)
 - Dr. Stefano Travaglino - Ph.D. (2018-2025)
 - Dr. Cara Tessia Motz - Ph.D. (2019-2025)
+- Dr. Valencia Watson - Ph.D. (2019-2025)
+
+
 - Dr. Ning Wu - PKU Joint Ph.D. Program (2012-2017)
 - Dr. Hao Zhang - PKU Joint Ph.D. Program (2012-2017)
 - Dr. Christopher J. Krueger - PKU Joint Ph.D. Program (2012-2023)
