@@ -90,8 +90,6 @@ Below is a list of former lab members who contributed to Zhu Lab’s legacy of s
 - Dr. Stefano Travaglino - Ph.D. (2018-2025)
 - Dr. Cara Tessia Motz - Ph.D. (2019-2025)
 - Dr. Valencia Watson - Ph.D. (2019-2025)
-
-
 - Dr. Ning Wu - PKU Joint Ph.D. Program (2012-2017)
 - Dr. Hao Zhang - PKU Joint Ph.D. Program (2012-2017)
 - Dr. Christopher J. Krueger - PKU Joint Ph.D. Program (2012-2023)
