@@ -836,9 +836,7 @@
 - id: doi:10.1016/S1063-5823(09)64007-2
   title: "Chapter 7 Biophysical Regulation of Selectin\u2013Ligand Interactions Under\
     \ Flow"
-  authors:
-  - Rodger P. McEver
-  - Cheng Zhu
+  authors: []
   publisher: Current Topics in Membranes
   date: '2009-01-01'
   link: https://doi.org/bj6jk9
@@ -910,7 +908,7 @@
   - Cheng Zhu
   - Brian D. Evavold
   publisher: The Journal of Immunology
-  date: '2008-11-15'
+  date: '2008-11-01'
   link: https://doi.org/f3v4rx
   orcid: 0000-0002-1718-565X
   plugin: orcid.py
@@ -982,8 +980,8 @@
   title: Kinetics of MHC-CD8 Interaction at the T Cell Membrane
   authors:
   - Jun Huang
-  - Lindsay J. Edwards
-  - Brian D. Evavold
+  - Lindsay J Edwards
+  - Brian D Evavold
   - Cheng Zhu
   publisher: The Journal of Immunology
   date: '2007-12-01'
@@ -1255,6 +1253,24 @@
   date: '1991-05-01'
   link: https://doi.org/brmm9w
   orcid: 0000-0002-1718-565X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.64898/2025.12.01.691627
+  title: "Evaluating the effects of CD8/CD4 on T cell function in terms of TCR\u2013\
+    pMHC\u2013coreceptor catch and slip bonds"
+  authors:
+  - Stefano Travaglino
+  - Amir Hossein Kazemipour Ashkezari
+  - Menglan Li
+  - Valencia E Watson
+  - Peiwen Cong
+  - Larissa Doudy
+  - Hyun-Kyu Choi
+  - Cheng Zhu
+  publisher: openRxiv
+  date: '2025-12-03'
+  link: https://doi.org/hbvb6h
+  orcid: 0009-0009-5761-8729
   plugin: orcid.py
   file: orcid.yaml
 - id: pmid:34435628
