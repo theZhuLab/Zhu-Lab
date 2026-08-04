@@ -1403,7 +1403,7 @@
   - Cheng Zhu
   publisher: Frontiers in Immunology
   date: '2026-06-05'
-  link: https://doi.org/hcdmts
+  link: https://doi.org/10.3389/fimmu.2026.1757198
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.bpj.2026.03.034
@@ -1422,7 +1422,7 @@
   - Cheng Zhu
   publisher: Biophysical Journal
   date: '2026-03-01'
-  link: https://doi.org/hcdmtt
+  link: 10.1016/j.bpj.2026.03.034
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.64898/2026.06.26.734558
@@ -1441,6 +1441,6 @@
   - Cheng Zhu
   publisher: openRxiv
   date: '2026-06-29'
-  link: https://doi.org/hcdmtv
+  link: https://doi.org/10.64898/2026.06.26.734558
   plugin: sources.py
   file: sources.yaml
