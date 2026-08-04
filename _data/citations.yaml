@@ -1389,3 +1389,58 @@
   link: https://doi.org/g9vxhp
   plugin: sources.py
   file: sources.yaml
+- id: 'doi: 10.3389/fimmu.2026.1757198'
+  title: "Evaluating the effects of CD8/CD4 on T cell function in terms of TCR\u2013\
+    pMHC\u2013coreceptor catch and slip bonds"
+  authors:
+  - Stefano Travaglino
+  - Amir Hossein Kazemipour Ashkezari
+  - Menglan Li
+  - Valencia E. Watson
+  - Peiwen Cong
+  - Larissa Doudy
+  - Hyun-Kyu Choi
+  - Cheng Zhu
+  publisher: Frontiers in Immunology
+  date: '2026-06-05'
+  link: https://doi.org/ 10.3389/fimmu.2026.1757198
+  plugin: sources.py
+  file: sources.yaml
+- id: 'doi: 10.1016/j.bpj.2026.03.034'
+  title: 'DynMoCo: A novel AI framework to reveal modular substructures of protein
+    from molecular dynamics'
+  authors:
+  - Lingchao Mao
+  - Mingu Kwak
+  - Amir Hossein Kazemipour Ashkezari
+  - Zhenhai Li
+  - Peiwen Cong
+  - Yunfeng Chen
+  - Jung Hun Phee
+  - Sooyeon Kang
+  - Jing Li
+  - Cheng Zhu
+  publisher: Biophysical Journal
+  date: '2026-03-01'
+  link: https://doi.org/ 10.1016/j.bpj.2026.03.034
+  plugin: sources.py
+  file: sources.yaml
+- id: 'doi: 10.64898/2026.06.26.734558'
+  title: SynNotch receptors for visualizing immunoreceptor force transmission and
+    downstream signaling in vivo
+  authors:
+  - Menglan Li
+  - Jintian Lyu
+  - Kaitao Li
+  - Ameya Dravid
+  - Deepali Balasubramani
+  - Amir H. K. Ashkezari
+  - Hyun-Kyu Choi
+  - Gabriel A. Kwong
+  - Ankur Singh
+  - Cheng Zhu
+  publisher: Bioengineering
+  date: '2026-06-29'
+  link: https://doi.org/ 10.64898/2026.06.26.734558
+  plugin: sources.py
+  file: sources.yaml
